@@ -8,24 +8,62 @@
 <div class="trouble_div">
     <div class="trouble_title">TROUBLE<span class="category_ja">お悩みから探す</span></div>
 
-    <div class="trouble_flex">
-        <div class="trouble_list">
-            <a href="{{ route('trouble_detail') }}" class="trouble_a">気になる黒ずみや嫌なニオイ</a>
-            <a href="" class="trouble_a">おりもの量の増加</a>
-            <a href="" class="trouble_a">美肌効果を得たい</a>
-            <a href="" class="trouble_a">かぶれやかゆみ、乾燥による<br>お肌のトラブル</a>
-            <a href="" class="trouble_a">年齢や疲れによるたるみ</a>
+    <div class="trouble_detail_title">気になる黒ずみや嫌なニオイ</div>
+    <div class="trouble_detail_text">
+        なかなか周りにはきけないけど、デリケートゾーンの黒ずみ、ニオイでお悩みのは方多いのではないでしょうか？<br>
+        そんなあなたへ韓国からの心強いケアアイテムをご紹介。
+    </div>
+
+    <div class="trouble_detail_flex">
+        <img src="{{ asset('img/item3.png') }}" class="trouble_detail_img">
+        <div class="trouble_detail_content">
+            <div class="trouble_item_name">商品名</div>
+            <div class="trouble_item_text">商品名</div>
+            <div class="trouble_item_text">￥1,000</div>
+            <div class="trouble_item_pink">韓国での信頼度No.1デリケートゾーンのオールインワンクリーム</div>
+            <div class="trouble_item_text">
+                商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文
+            </div>
         </div>
-        <img src="{{ asset('img/trouble_main_img.png') }}" class="trouble_main_img">
+    </div>
+
+    <div class="trouble_detail_flex">
+        <img src="{{ asset('img/item4.png') }}" class="trouble_detail_img">
+        <div class="trouble_detail_content">
+            <div class="trouble_item_name">商品名</div>
+            <div class="trouble_item_text">商品名</div>
+            <div class="trouble_item_text">￥1,000</div>
+            <div class="trouble_item_pink">韓国での信頼度No.1デリケートゾーンのオールインワンクリーム</div>
+            <div class="trouble_item_text">
+                商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文
+            </div>
+        </div>
+    </div>
+
+    <div class="trouble_detail_flex">
+        <img src="{{ asset('img/item5.png') }}" class="trouble_detail_img">
+        <div class="trouble_detail_content">
+            <div class="trouble_item_name">商品名</div>
+            <div class="trouble_item_text">商品名</div>
+            <div class="trouble_item_text">￥1,000</div>
+            <div class="trouble_item_pink">韓国での信頼度No.1デリケートゾーンのオールインワンクリーム</div>
+            <div class="trouble_item_text">
+                商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文
+            </div>
+        </div>
+    </div>
+
+    <div class="trouble_detail_blue">お悩みから探す</div>
+
+    <div class="trouble_link_flex">
+        <a href="" class="trouble_link_a">おりもの量の増加</a>
+        <a href="" class="trouble_link_a">美肌効果を得たい</a>
+        <a href="" class="trouble_link_a">かぶれやかゆみ、乾燥による<br>お肌のトラブル</a>
+        <a href="" class="trouble_link_a">年齢や疲れによるたるみ</a>
+
     </div>
 
     <img src="{{ asset('img/trouble_bar.png') }}" class="trouble_bar">
-
-    <div class="trouble_flex2">
-        <img src="{{ asset('img/window1.png') }}" class="window_img">
-        <img src="{{ asset('img/window2.png') }}" class="window_img">
-        <img src="{{ asset('img/window3.png') }}" class="window_img">
-    </div>
 
 </div>
 

@@ -22,6 +22,11 @@ class NokotsudoController extends Controller
         return view('trouble');
     }
 
+    public function trouble_detail()
+    {
+        return view('trouble_detail');
+    }
+
     public function contact()
     {
         return view('contact');
