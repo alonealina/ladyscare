@@ -20,13 +20,6 @@ function clickMailButton() {
         $('#name').css( 'background', '#fff' );
     }
 
-    if (mail_form.tel.value == ""){
-        $('#tel').css( 'background', '#FFE1E1' );
-        error_flg = 1;
-    } else {
-        $('#tel').css( 'background', '#fff' );
-    }
-
     if (mail_form.mail.value == "" || !(mail_form.mail.value.match(/.+@.+\..+/)) ){
         $('#mail').css( 'background', '#FFE1E1' );
         error_flg = 1;

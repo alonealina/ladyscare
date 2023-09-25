@@ -27,6 +27,26 @@ class NokotsudoController extends Controller
         return view('trouble_detail');
     }
 
+    public function ranking()
+    {
+        return view('ranking');
+    }
+
+    public function fav()
+    {
+        return view('fav');
+    }
+
+    public function news()
+    {
+        return view('news');
+    }
+
+    public function news_detail()
+    {
+        return view('news_detail');
+    }
+
     public function contact()
     {
         return view('contact');

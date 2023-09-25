@@ -145,7 +145,7 @@ header {
 }
 
 .contact_div {
-    width:700px;
+    width:40vw;
     margin: 5px auto 20px;
 }
 .contact_name {
@@ -159,27 +159,34 @@ header {
     height: 40px;
     width: 100%;
     padding: 10px;
+    border: 1px solid #707070;
+    border-radius: 5px;
 }
 .contact_textarea {
     border: none;
-    height: 200px;
+    height: 300px;
     width: 100%;
     padding: 10px;
-
+    border: 1px solid #707070;
+    border-radius: 5px;
 }
 .send_btn, .send_btn:hover {
     background: #000000 0% 0% no-repeat padding-box;
-    padding:20px;
+    padding:15px;
     width:250px;
     text-align: center;
-    font: normal normal normal 30px/25px Ten Mincho;
+    font: normal normal normal 1.5vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0px;
     color: #FFFFFF;
     display: block;
     margin: auto;
     text-decoration: none;
 }
-
+.error_message {
+    font: normal normal normal 14px/29px Kozuka Gothic Pr6N;
+    color: #CC0000;
+    text-align: center;
+}
 
 footer {
     background: #F2E1E4 0% 0% no-repeat padding-box;
@@ -395,7 +402,7 @@ footer {
     display: block;
 }
 .top3_item_name {
-    padding-left: 1vw;
+    padding: 0 1vw;
     margin:10px 0;
     color: #000000;
 }
@@ -588,7 +595,7 @@ footer {
 }
 .trouble_detail_flex {
     width: 80vw;
-    margin:1vw auto;
+    margin:2vw auto;
     display: flex;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -639,6 +646,57 @@ footer {
     letter-spacing: 0.2vw;
     color: #503C3C;
 }
+
+.ranking_title {
+    font: normal normal bold 2.5vw/2.5vw Arial;
+    letter-spacing: 0.2vw;
+    color: #3169AA;
+    padding-left: 7vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.ranking_detail_img {
+    width: 20vw;
+    display: block;
+    margin-top: -3vw;
+}
+.top_rank_other2 {
+    display: flex;
+    justify-content: space-between;
+    width: 62vw;
+    margin: 2vw auto 10vw;
+}
+.fav_right {
+    width: 20px;
+    float: right;
+}
+
+.news_banner {
+    width:75vw;
+    margin:4vw auto;
+    display: block;
+}
+.top_news_date_gray {
+    padding-top: 1vw;
+    font: normal normal normal 1.1vw/1.3vw Kozuka Gothic Pr6N;
+    color: #CACACA;
+    text-align: right;
+}
+.news_detail_div {
+    width:75vw;
+    margin:4vw auto;
+    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
+    color: #000000;
+}
+.news_detail_title {
+    font: normal normal bold 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    color: #000000;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 
