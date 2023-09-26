@@ -52,7 +52,7 @@
 }
 
 body {
-    font-family: ten-mincho, serif;
+    font-family: Kozuka Gothic Pr6N;
     background: #F1EBDC 0% 0% no-repeat padding-box;
 
 }
@@ -146,10 +146,46 @@ header {
     z-index: 9000;
 }
 
+.check_flex {
+    width:40vw;
+    margin: 5px auto 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=checkbox].checkbox_pink {
+    accent-color: #F19AAA;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.check_text {
+    width:37.5vw;
+    color: #000000;
+    font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+    text-decoration: underline;
+}
+
+.login_div {
+    width:30vw;
+    margin: 5px auto 20px;
+}
 .contact_div {
     width:40vw;
     margin: 5px auto 20px;
 }
+
+.reminder_link {
+    text-align: center;
+    display: block;
+    color: #000;
+    text-decoration: underline;
+    margin: 20px;
+}
+.reminder_text {
+    text-align: center;
+    margin-bottom: 4vw;
+    font-size: 1.5vw;
+}
+
 .contact_name {
     font: normal normal normal 16px/25px Ten Mincho;
     letter-spacing: 0px;
@@ -174,8 +210,8 @@ header {
 }
 .send_btn, .send_btn:hover {
     background: #000000 0% 0% no-repeat padding-box;
-    padding:15px;
-    width:250px;
+    padding: 1.3vw;
+    width: 20vw;
     text-align: center;
     font: normal normal normal 1.5vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0px;
@@ -189,6 +225,12 @@ header {
     color: #CC0000;
     text-align: center;
 }
+.comp_text {
+    font: normal normal normal 1.3vw/2.5vw Kozuka Gothic Pr6N;
+    text-align: center;
+    padding: 50px;
+}
+
 
 footer {
     background: #F2E1E4 0% 0% no-repeat padding-box;
@@ -698,8 +740,15 @@ footer {
 }
 
 
-
-
+.form_flex {
+    width:40vw;
+    margin: 5px auto 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_div_short {
+    width:19vw;
+}
 
 
 

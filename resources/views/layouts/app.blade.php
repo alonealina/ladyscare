@@ -25,11 +25,11 @@
             <header>
                 <div class="header_menu">
                     <a href="{{ route('index') }}" class="header_a">TOP</a>
-                    <a href="{{ route('index') }}" class="header_a">CATEGORY</a>
-                    <a href="{{ route('index') }}" class="header_a">TROUBLE</a>
+                    <a href="{{ route('category') }}" class="header_a">CATEGORY</a>
+                    <a href="{{ route('trouble') }}" class="header_a">TROUBLE</a>
                     <a href="{{ route('index') }}" class="header_a">PICK UP</a>
-                    <a href="{{ route('index') }}" class="header_a">RANKING</a>
-                    <a href="{{ route('index') }}" class="header_a">NEWS</a>
+                    <a href="{{ route('ranking') }}" class="header_a">RANKING</a>
+                    <a href="{{ route('news') }}" class="header_a">NEWS</a>
                 </div>
                 <img src="{{ asset('img/header_logo.png') }}" class="header_logo_img">
 
@@ -39,7 +39,7 @@
                         <a href="{{ route('index') }}"><img src="{{ asset('img/search_btn.png') }}" style="width: 23px; margin-left:5px;"></a>
                     </div>
                     <a href="{{ route('index') }}"><img src="{{ asset('img/human_btn.png') }}" style="width: 18px; margin-top: 14px;"></a>
-                    <a href="{{ route('index') }}"><img src="{{ asset('img/fav_btn.png') }}" style="width: 26px; margin-top: 12px;"></a>
+                    <a href="{{ route('fav') }}"><img src="{{ asset('img/fav_btn.png') }}" style="width: 26px; margin-top: 12px;"></a>
                     <a href="{{ route('index') }}"><img src="{{ asset('img/cart_btn.png') }}" style="width: 30px; margin-top: 20px;"></a>
                 </div>
             </header>
@@ -48,9 +48,9 @@
             @yield('content')
 
             <footer>
-                <div class=""><a href="" class="footer_link1">CATEGORY</a></div>
+                <div class="{{ route('category') }}"><a href="" class="footer_link1">CATEGORY</a></div>
                 <div class="footer_flex">
-                    <a href="" class="footer_link2">ミルク・ローション・ソープ</a>
+                    <a href="{{ route('category') }}" class="footer_link2">ミルク・ローション・ソープ</a>
                     <a href="" class="footer_link2">トリートメント・保湿パック</a>
                     <a href="" class="footer_link2">敏感肌用・オーガニック</a>
                     <a href="" class="footer_link2">クリーム・バター</a>
@@ -58,9 +58,9 @@
                     <a href="" class="footer_link2">オイル</a>
                 </div>
 
-                <div class=""><a href="" class="footer_link1">TROUBLE</a></div>
+                <div class="{{ route('trouble') }}"><a href="" class="footer_link1">TROUBLE</a></div>
                 <div class="footer_flex">
-                    <a href="" class="footer_link3">気になる黒ずみや嫌なニオイ</a>
+                    <a href="{{ route('trouble_detail') }}" class="footer_link3">気になる黒ずみや嫌なニオイ</a>
                     <a href="" class="footer_link3">年齢とともにハリがなくなって起こるたるみ</a>
                     <a href="" class="footer_link3">被れによるかゆみや乾燥によるお肌のトラブル</a>
                     <a href="" class="footer_link3">膣内環境の悪化によるおりもの量の増加</a>
@@ -70,8 +70,8 @@
 
                 <div class="">
                     <a href="" class="footer_link1">PICK UP</a>
-                    <a href="" class="footer_link1">RANKING</a>
-                    <a href="" class="footer_link1">NEWS</a>
+                    <a href="{{ route('ranking') }}" class="footer_link1">RANKING</a>
+                    <a href="{{ route('news') }}" class="footer_link1">NEWS</a>
                 </div>
 
                 <img src="{{ asset('img/footer_logo.png') }}" class="footer_logo">

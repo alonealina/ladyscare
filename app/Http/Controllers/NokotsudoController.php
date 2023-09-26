@@ -54,35 +54,35 @@ class NokotsudoController extends Controller
     
     public function mail_send(Request $request)
     {
-        $captcha = 0;
-        if (isset($request['g-recaptcha-response'])) {
-        $captcha = $request['g-recaptcha-response'];
-        }
-        if ($captcha) {
-            $data = ['name' => $request->name,
-            'kana' => $request->kana,
-            'mail' => $request->mail,
-            'zip' => $request->zip,
-            'address' => $request->address,
-            'building' => $request->building,
-            'mail' => $request->mail,
-            'tel' => $request->tel,
-            'content' => $request->content,];
+        // $captcha = 0;
+        // if (isset($request['g-recaptcha-response'])) {
+        // $captcha = $request['g-recaptcha-response'];
+        // }
+        // if ($captcha) {
+        //     $data = ['name' => $request->name,
+        //     'kana' => $request->kana,
+        //     'mail' => $request->mail,
+        //     'zip' => $request->zip,
+        //     'address' => $request->address,
+        //     'building' => $request->building,
+        //     'mail' => $request->mail,
+        //     'tel' => $request->tel,
+        //     'content' => $request->content,];
 
-            $mail = $request->mail;
+        //     $mail = $request->mail;
 
-            Mail::send('mail', $data, function($message) use ($mail){
-                $message->to($mail, 'info@henson583.com')->subject('【高野山遍照尊院】お問い合わせ完了のご案内');
-            });
+        //     Mail::send('mail', $data, function($message) use ($mail){
+        //         $message->to($mail, 'info@henson583.com')->subject('【高野山遍照尊院】お問い合わせ完了のご案内');
+        //     });
 
-            Mail::send('mail_admin', $data, function($message) {
-                $message->to('info@henson583.com', 'info@henson583.com')->subject('【高野山遍照尊院】お問い合わせ受け付けのお知らせ');
-            });
+        //     Mail::send('mail_admin', $data, function($message) {
+        //         $message->to('info@henson583.com', 'info@henson583.com')->subject('【高野山遍照尊院】お問い合わせ受け付けのお知らせ');
+        //     });
 
-            Mail::send('mail_admin', $data, function($message) {
-                $message->to('william_billl2008@yahoo.co.jp', 'info@henson583.com')->subject('【高野山遍照尊院】お問い合わせ受け付けのお知らせ');
-            });
-        }
+        //     Mail::send('mail_admin', $data, function($message) {
+        //         $message->to('william_billl2008@yahoo.co.jp', 'info@henson583.com')->subject('【高野山遍照尊院】お問い合わせ受け付けのお知らせ');
+        //     });
+        // }
 
         return redirect()->to('mail_comp');
     }
@@ -92,5 +92,55 @@ class NokotsudoController extends Controller
         return view('mail_comp');
     }
 
+    public function member_regist()
+    {
+        return view('member_regist');
+    }
+    
+    public function member_comp()
+    {
+        return view('member_comp');
+    }
+    
+    public function login()
+    {
+        return view('login');
+    }
+    
+    public function login_method()
+    {
+        return view('login_method');
+    }
+    
+    public function reminder()
+    {
+        return view('reminder');
+    }
+    
+    public function reminder_send()
+    {
+        return redirect()->to('reminder_comp');
+    }
+    
+    public function reminder_comp()
+    {
+        return view('reminder_comp');
+    }
+    
+    public function pass_rev()
+    {
+        return view('pass_rev');
+    }
+    
+    public function pass_rev_method()
+    {
+        return redirect()->to('pass_rev_comp');
+    }
+    
+    public function pass_rev_comp()
+    {
+        return view('pass_rev_comp');
+    }
+    
 
 }
