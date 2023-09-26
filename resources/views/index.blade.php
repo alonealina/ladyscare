@@ -22,16 +22,16 @@
         <a href="" class="top_category_a"><img src="{{ asset('img/top_category_img5.png') }}" class="top_category_img"></a>
         <a href="" class="top_category_a"><img src="{{ asset('img/top_category_img6.png') }}" class="top_category_img"></a>
     </div>
-    <a href="" class=""><img src="{{ asset('img/view_all_btn.png') }}" class="view_all_btn"></a>
+    <a href="{{ route('category') }}" class=""><img src="{{ asset('img/view_all_btn.png') }}" class="view_all_btn"></a>
 
     
 </div>
 
 <div class="top_bg2">
     <div class="top2_box">
-        <a href="" class=""><img src="{{ asset('img/trouble_img1.png') }}" class="trouble_img1"></a>
+        <a href="{{ route('trouble') }}" class=""><img src="{{ asset('img/trouble_img1.png') }}" class="trouble_img1"></a>
         <div class="top2_brown">
-            <a href="" class="top2_a">気になる黒ずみや嫌なニオイ</a>
+            <a href="{{ route('trouble_detail') }}" class="top2_a">気になる黒ずみや嫌なニオイ</a>
             <a href="" class="top2_a">おりもの量の増加</a>
             <a href="" class="top2_a">美肌効果を得たい</a>
             <a href="" class="top2_a">かぶれやかゆみ、乾燥による<br>お肌のトラブル</a>
@@ -142,7 +142,7 @@
 </div>
 
 <img src="{{ asset('img/top_ranking_title.png') }}" class="top_ranking_title">
-<a href="" class="top_ranking_a">売上ランキングをもっと見る</a>
+<a href="{{ route('ranking') }}" class="top_ranking_a">売上ランキングをもっと見る</a>
 
 <div class="top_rank3">
     <a href="" class="top3_item_a">
@@ -200,24 +200,24 @@
 
 <div class="top_news_bg">
     <div class="top_news_title">NEWS</div>
-    <a href="" class="top_news_a">ニュースをもっと見る ></a>
+    <a href="{{ route('news') }}" class="top_news_a">ニュースをもっと見る ></a>
 
     <div class="top_news_flex">
-        <a href="" class="top_news_box">
+        <a href="{{ route('news_detail') }}" class="top_news_box">
             <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
             <div class="top_news_content">
                 ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
                 <div class="top_news_date">2023.08.18</div>
             </div>
         </a>
-        <a href="" class="top_news_box">
+        <a href="{{ route('news_detail') }}" class="top_news_box">
             <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
             <div class="top_news_content">
                 ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
                 <div class="top_news_date">2023.08.18</div>
             </div>
         </a>
-        <a href="" class="top_news_box">
+        <a href="{{ route('news_detail') }}" class="top_news_box">
             <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
             <div class="top_news_content">
                 ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
@@ -227,21 +227,21 @@
     </div>
 
     <div class="top_news_flex">
-        <a href="" class="top_news_box">
+        <a href="{{ route('news_detail') }}" class="top_news_box">
             <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
             <div class="top_news_content">
                 ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
                 <div class="top_news_date">2023.08.18</div>
             </div>
         </a>
-        <a href="" class="top_news_box">
+        <a href="{{ route('news_detail') }}" class="top_news_box">
             <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
             <div class="top_news_content">
                 ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
                 <div class="top_news_date">2023.08.18</div>
             </div>
         </a>
-        <a href="" class="top_news_box">
+        <a href="{{ route('news_detail') }}" class="top_news_box">
             <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
             <div class="top_news_content">
                 ニュースタイトルニュースタイトルニュースタイトルニュースタイトル

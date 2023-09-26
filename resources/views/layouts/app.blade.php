@@ -74,7 +74,7 @@
                     <a href="" class="footer_link1">NEWS</a>
                 </div>
 
-                <img src="{{ asset('img/header_logo.png') }}" class="footer_logo">
+                <img src="{{ asset('img/footer_logo.png') }}" class="footer_logo">
 
                 <div class="footer_sns_flex">
                     <a href="{{ route('index') }}"><img src="{{ asset('img/facebook_white.png') }}" class="footer_sns_img"></a>
