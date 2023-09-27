@@ -31,4 +31,12 @@ Route::get('pass_rev', 'App\Http\Controllers\NokotsudoController@pass_rev')->nam
 Route::post('pass_rev_method', 'App\Http\Controllers\NokotsudoController@pass_rev_method')->name('pass_rev_method');
 Route::get('pass_rev_comp', 'App\Http\Controllers\NokotsudoController@pass_rev_comp')->name('pass_rev_comp');
 
+Route::get('item_buy_login', 'App\Http\Controllers\NokotsudoController@item_buy_login')->name('item_buy_login');
+Route::get('paymethod_select', 'App\Http\Controllers\NokotsudoController@paymethod_select')->name('paymethod_select');
+Route::get('item_buy_confirm', 'App\Http\Controllers\NokotsudoController@item_buy_confirm')->name('item_buy_confirm');
+Route::get('item_buy_comp', 'App\Http\Controllers\NokotsudoController@item_buy_comp')->name('item_buy_comp');
 
+Route::get('member_edit', 'App\Http\Controllers\NokotsudoController@member_edit')->name('member_edit');
+
+Route::get('item_buy_normal', 'App\Http\Controllers\NokotsudoController@item_buy_normal')->name('item_buy_normal');
+Route::get('not_member_form', 'App\Http\Controllers\NokotsudoController@not_member_form')->name('not_member_form');

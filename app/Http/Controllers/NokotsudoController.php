@@ -142,5 +142,43 @@ class NokotsudoController extends Controller
         return view('pass_rev_comp');
     }
     
+    public function item_buy_login()
+    {
+        return view('item_buy_login');
+    }
+    
+    public function paymethod_select()
+    {
+        return view('paymethod_select');
+    }
+    
+    public function item_buy_confirm()
+    {
+        return view('item_buy_confirm');
+    }
 
+    public function item_buy_comp()
+    {
+        return view('item_buy_comp');
+    }
+
+    public function member_edit()
+    {
+        return view('member_edit');
+    }
+    
+    public function item_buy_normal()
+    {
+        return view('item_buy_normal');
+    }
+    
+    public function not_member_form()
+    {
+        return view('not_member_form');
+    }
+    
+
+    
+    
+    
 }
