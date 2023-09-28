@@ -573,6 +573,17 @@ footer {
     padding-bottom: 3vw;
 }
 
+.pickup_div {
+    background: #F2E1E4 0% 0% no-repeat padding-box;
+    padding:5vw 10vw;
+}
+.pickup_title {
+    font: normal normal bold 2.3vw/2.3vw Arial;
+    letter-spacing: 0.2vw;
+    color: #338F86;
+}
+
+
 .trouble_title {
     font: normal normal bold 30px/29px Arial;
     letter-spacing: 3px;
@@ -864,6 +875,306 @@ footer {
     letter-spacing: 0px;
     color: #503C3C;
 }
+
+.item_detail_div {
+    width:80vw;
+    margin: auto;
+    padding: 5vw 0;
+}
+.item_detail_flex {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.item_detail_img_list {
+    width:8vw;
+}
+.item_detail_img_s {
+    width:100%;
+    margin-bottom: 10px;
+}
+.item_detail_img_div {
+    width:30vw;
+}
+.item_detail_sphere {
+    display: block;
+    float: right;
+    margin-top: -1vw;
+    margin-right: -1vw;
+    width: 5vw;
+    height: 5vw;
+    z-index: 1000;
+    position: relative;
+}
+.item_detail_img_main {
+    width: 100%;
+    display: block;
+    position: relative;
+    top: -4vw;
+}
+.item_detail_content {
+    width:40vw
+}
+.item_detail_ex {
+    width:100%;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    font: normal normal bold 1.8vw/2vw Kozuka Gothic Pr6N;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 3vw;
+}
+.item_detail_text {
+    margin:1vw 0;
+    font: normal normal normal 1.4vw/1.7vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+}
+.item_detail_tag {
+    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    color: #3169AA;
+    margin-right:0.5vw;
+}
+.black_line {
+    width:100%;
+    height:1px;
+    background:#000;
+}
+.item_detail_fav {
+    width: 26px;
+    margin-right: 1vw;
+    margin-left: auto;
+    display: block;
+}
+.item_detail_price_flex {
+    padding:1vw 0.5vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font: normal normal bold 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    color: #000000;
+}
+
+.radio_orange {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 0.7vw;
+}
+
+.radio_orange:before {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+.radio_orange:checked:before {
+    background: #FFBC78;
+}
+.item_detail_price_div {
+    font: normal normal bold 1.8vw/1.8vw Kozuka Gothic Pr6N;
+    letter-spacing: 0px;
+    color: #000000;
+    padding-left: 2vw;
+    padding-top: 0.6vw;
+}
+.item_detail_price_gray {
+    font: normal normal normal 1.5vw/1.8vw Kozuka Gothic Pr6N;
+    letter-spacing: 0px;
+    color: #707070;
+}
+.input_number {
+    width: 6vw;
+    padding: 0.5vw 0 0.5vw 2vw;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 1vw;
+    border: 1px solid #000;
+}
+.item_detail_price_list {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 27.5vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.item_detail_item {
+    width:8vw;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.item_detail_reg {
+    width: 5vw;
+    font: normal normal 600 1.3vw/1.5vw Segoe UI;
+    letter-spacing: 0px;
+    color: #2D2A24;
+}
+.orange_sphere {
+    width: 3vw;
+    height: 3vw;
+    background: #FFBC78 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    font: normal normal normal 1vw/1vw Kozuka Gothic Pr6N;
+    letter-spacing: 0px;
+    color: #2D2A24;
+    text-align: center;
+    padding-top: 0.4vw;
+}
+.item_detail_btn_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item_detail_btn {
+    width:19vw;
+    background: #000000 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 1.1vw/1.1vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #FFFFFF;
+    padding:1vw;
+    display: block;
+}
+.tab_flex {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item_detail_tab {
+    display: block;
+    padding:1.3vw;
+    text-align: center;
+    border-left: 2px solid #242423;
+    border-right: 2px solid #242423;
+    border-top: 2px solid #242423;
+    font: normal normal normal 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #FFFFFF;
+    background-color: #000;
+    width:27vw;
+}
+.item_detail_tab:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.item_current {
+    color: #242423;
+    background-color: #fff;
+}
+.item_current:hover {
+    color: #242423;
+}
+.detail_content, .review_content, .qa_content {
+    background-color: #fff;
+    border-left: 2px solid #242423;
+    border-right: 2px solid #242423;
+    border-bottom: 2px solid #242423;
+    height: 45vw;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.detail_content::-webkit-scrollbar, .review_content::-webkit-scrollbar, .qa_content::-webkit-scrollbar{
+    display:none;
+}
+.detail_content {
+    padding:5vw;
+    font: normal normal normal 1vw/1.4vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #2E2E2E;
+}
+.review_content {
+    padding:2vw 3vw;
+}
+.qa_content {
+    padding:2vw;
+}
+.detail_content_flex {
+    width:100%;
+    display: flex;
+    margin-top: 2vw;
+}
+.detail_content_title {
+    font-weight: bold;
+    margin-right:2vw;
+    width: 12vw;
+}
+.detail_content_text {
+    width: 68vw;
+}
+
+.qa_flex {
+    padding:1vw 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.qa_flex_s {
+    width: 10vw;
+    text-align: center;
+    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #242423;
+}
+.qa_flex_s_gray {
+    width: 10vw;
+    text-align: center;
+    font: normal normal normal 1.1vw/1.2vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #5D43438C;
+}
+.qa_flex_l {
+    width: 40vw;
+    text-align: center;
+    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #242423;
+}
+.qa_states {
+    width: 10vw;
+    border-radius: 2vw;
+    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #fff;
+    text-align: center;
+    padding: 0.7vw;
+    height: 3vw;
+}
+.qa_gray {
+    background: #707070 0% 0% no-repeat padding-box;
+}
+.qa_orange {
+    background: #FFBC78 0% 0% no-repeat padding-box;
+}
+.qa_flex_text {
+    width: 40vw;
+    font: normal normal normal 1.1vw/1.2vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #242423;
+}
+.qa_gray_line {
+    width: 100%;
+    height:1px;
+    background-color: #707070;
+    margin:1vw 0;
+}
+.qa_answer {
+    width: 64vw;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 17px;
+    padding:1vw;
+    font: normal normal normal 1.1vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #FFFFFF;
+}
+
+
 
 
 @media screen and (max-width: 500px) {

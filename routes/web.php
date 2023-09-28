@@ -7,6 +7,7 @@ Route::get('/', 'App\Http\Controllers\NokotsudoController@index')->name('index')
 Route::get('category', 'App\Http\Controllers\NokotsudoController@category')->name('category');
 Route::get('trouble', 'App\Http\Controllers\NokotsudoController@trouble')->name('trouble');
 Route::get('trouble_detail', 'App\Http\Controllers\NokotsudoController@trouble_detail')->name('trouble_detail');
+Route::get('pickup', 'App\Http\Controllers\NokotsudoController@pickup')->name('pickup');
 Route::get('ranking', 'App\Http\Controllers\NokotsudoController@ranking')->name('ranking');
 Route::get('fav', 'App\Http\Controllers\NokotsudoController@fav')->name('fav');
 Route::get('news', 'App\Http\Controllers\NokotsudoController@news')->name('news');
@@ -40,3 +41,5 @@ Route::get('member_edit', 'App\Http\Controllers\NokotsudoController@member_edit'
 
 Route::get('item_buy_normal', 'App\Http\Controllers\NokotsudoController@item_buy_normal')->name('item_buy_normal');
 Route::get('not_member_form', 'App\Http\Controllers\NokotsudoController@not_member_form')->name('not_member_form');
+
+Route::get('item_detail', 'App\Http\Controllers\NokotsudoController@item_detail')->name('item_detail');

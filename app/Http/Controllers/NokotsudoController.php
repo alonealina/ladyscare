@@ -177,6 +177,11 @@ class NokotsudoController extends Controller
         return view('not_member_form');
     }
     
+    public function item_detail()
+    {
+        return view('item_detail');
+    }
+    
 
     
     
