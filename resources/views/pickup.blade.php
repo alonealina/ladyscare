@@ -4,28 +4,116 @@
 <div class="pickup_div">
     <div class="pickup_title">PICK UP</div>
 
+    <div class="pickup_genre_title">#お気に入り登録多数の人気アイテム</div>
     <div class="category_flex">
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+    </div>
+
+    <div class="pickup_genre_title">#冬おすすめの保湿ケア</div>
+    <div class="category_flex">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+    </div>
+
+    <div class="pickup_genre_title">#気になるニオイや黒ずみを徹底ケアできる！美白効果プラスのデリケートケア</div>
+    <div class="category_flex">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+    </div>
+
+    <div class="pickup_genre_title">#今あるお悩みをきっと解決してくれる敏感肌やこだわりたい方にお勧めのオーガニック商品</div>
+    <div class="category_flex">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>

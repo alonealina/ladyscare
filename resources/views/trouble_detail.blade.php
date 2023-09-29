@@ -15,7 +15,7 @@
     </div>
 
     <div class="trouble_detail_flex">
-        <img src="{{ asset('img/item3.png') }}" class="trouble_detail_img">
+        <a href="{{ route('item_detail') }}"><img src="{{ asset('img/item3.png') }}" class="trouble_detail_img"></a>
         <div class="trouble_detail_content">
             <div class="trouble_item_name">商品名</div>
             <div class="trouble_item_text">商品名</div>

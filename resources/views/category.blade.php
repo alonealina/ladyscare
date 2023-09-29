@@ -9,27 +9,27 @@
     <div class="category_title">CATEGORY<span class="category_ja">敏感肌用・オーガニック</span></div>
 
     <div class="category_flex">
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
@@ -37,27 +37,27 @@
     </div>
 
     <div class="category_flex">
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
@@ -65,27 +65,27 @@
     </div>
 
     <div class="category_flex">
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>
         </a>
-        <a href="" class="category_item_a">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
             <div class="top3_item_name">￥1,000</div>

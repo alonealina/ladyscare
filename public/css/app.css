@@ -582,7 +582,12 @@ footer {
     letter-spacing: 0.2vw;
     color: #338F86;
 }
-
+.pickup_genre_title {
+    text-align: center;
+    margin:5vw 0 3vw;
+    font: normal normal bold 1.6vw/2vw Kozuka Gothic Pro;
+    color: #338F86;
+}
 
 .trouble_title {
     font: normal normal bold 30px/29px Arial;
@@ -714,6 +719,9 @@ footer {
     width: 20vw;
     display: block;
     margin-top: -3vw;
+}
+.ranking_img_a {
+    display: block;
 }
 .top_rank_other2 {
     display: flex;
@@ -1174,6 +1182,80 @@ footer {
     color: #FFFFFF;
 }
 
+.review_flex {
+    padding:1vw 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.review_box {
+    width:35vw;
+    padding:1.5vw;
+    border:#000 1px solid;
+}
+.review_box_title {
+    font: normal normal bold 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #503C3C;
+}
+.review_5star {
+    font: normal normal normal 3.5vw/3.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 1vw;
+    color:#FFBC78;
+    text-align: center;
+    margin:2vw;
+}
+.review_5 {
+    font: normal normal normal 3vw/3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.3vw;
+    color: #503C3C;
+    text-align: center;
+}
+.review_bar_flex {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 0.5vw;
+    margin: 1vw 0;
+}
+.review_bar_star {
+    width:4vw;
+    font: normal normal bold 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #503C3C;
+}
+.review_bar {
+    border: 1px solid #503C3C;
+    width:23vw;
+    height: 1vw;
+    margin-top: 0.3vw;
+}
+.review_bar_orange {
+    background-color: #FFBC78;
+    height: 100%;
+}
+.review_bar_per {
+    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #503C3C;
+    width:3vw;
+}
+.review_star {
+    font: normal normal normal 2vw/2.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.2vw;
+    color: #503C3C;
+}
+.review_name {
+    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #5D43438C;
+    margin: 1vw 0;
+}
+.review_text {
+    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #503C3C;
+}
 
 
 

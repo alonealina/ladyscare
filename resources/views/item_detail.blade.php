@@ -81,7 +81,7 @@
 
             <div class="item_detail_btn_flex">
                 <a href="#!" class="item_detail_btn">カートに入れる</a>
-                <a href="#!" class="item_detail_btn">購入手続きへ</a>
+                <a href="{{ route('item_buy_normal') }}" class="item_detail_btn">購入手続きへ</a>
             </div>
 
         </div>
@@ -129,6 +129,78 @@
             </div>
         </div>
         <div class="review_content" style="display:none;">
+
+            <div class="review_flex">
+                <div class="review_box">
+                    <div class="review_box_title">商品満足度</div>
+                    <div class="review_5star">★★★★☆</div>
+                    <div class="review_5">4/5</div>
+                </div>
+                <div class="review_box">
+                    <div class="review_box_title">採点分析</div>
+                    <div class="review_bar_flex">
+                        <div class="review_bar_star">★5</div>
+                        <div class="review_bar">
+                            <div class="review_bar_orange" style="width: 60%;"></div>
+                        </div>
+                        <div class="review_bar_per">60%</div>
+                    </div>
+                    <div class="review_bar_flex">
+                        <div class="review_bar_star">★4</div>
+                        <div class="review_bar">
+                            <div class="review_bar_orange" style="width: 28%;"></div>
+                        </div>
+                        <div class="review_bar_per">28%</div>
+                    </div>
+                    <div class="review_bar_flex">
+                        <div class="review_bar_star">★3</div>
+                        <div class="review_bar">
+                            <div class="review_bar_orange" style="width: 11%;"></div>
+                        </div>
+                        <div class="review_bar_per">11%</div>
+                    </div>
+                    <div class="review_bar_flex">
+                        <div class="review_bar_star">★2</div>
+                        <div class="review_bar">
+                            <div class="review_bar_orange" style="width: 1%;"></div>
+                        </div>
+                        <div class="review_bar_per">1%</div>
+                    </div>
+                    <div class="review_bar_flex">
+                        <div class="review_bar_star">★1</div>
+                        <div class="review_bar">
+                            <div class="review_bar_orange" style="width: 0%;"></div>
+                        </div>
+                        <div class="review_bar_per">0%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="qa_gray_line"></div>
+
+            <div class="review_star">★★★★★ 5/5</div>
+            <div class="review_name">acountname｜2023.00.00</div>
+            <div class="review_text">気に入っていてこればかり何度もリピートしてます。無香で洗いやすく刺激もないです。</div>
+            <div class="qa_gray_line"></div>
+
+            <div class="review_star">★★★★★ 5/5</div>
+            <div class="review_name">acountname｜2023.00.00</div>
+            <div class="review_text">気に入っていてこればかり何度もリピートしてます。無香で洗いやすく刺激もないです。</div>
+            <div class="qa_gray_line"></div>
+
+            <div class="review_star">★★★★★ 5/5</div>
+            <div class="review_name">acountname｜2023.00.00</div>
+            <div class="review_text">気に入っていてこればかり何度もリピートしてます。無香で洗いやすく刺激もないです。</div>
+            <div class="qa_gray_line"></div>
+
+            <div class="review_star">★★★★★ 5/5</div>
+            <div class="review_name">acountname｜2023.00.00</div>
+            <div class="review_text">気に入っていてこればかり何度もリピートしてます。無香で洗いやすく刺激もないです。</div>
+            <div class="qa_gray_line"></div>
+
+            <div class="review_star">★★★★★ 5/5</div>
+            <div class="review_name">acountname｜2023.00.00</div>
+            <div class="review_text">気に入っていてこればかり何度もリピートしてます。無香で洗いやすく刺激もないです。</div>
+            <div class="qa_gray_line"></div>
 
         </div>
 
