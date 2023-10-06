@@ -22,8 +22,8 @@
     <img src="{{ asset('img/trouble_bar.png') }}" class="trouble_bar">
 
     <div class="trouble_flex2">
-        <img src="{{ asset('img/window1.png') }}" class="window_img">
-        <img src="{{ asset('img/window2.png') }}" class="window_img">
+        <img src="{{ asset('img/window1.png') }}" class="window_img" style="height: 45.3vw;">
+        <img src="{{ asset('img/window2.png') }}" class="window_img" style="height: 45.3vw;">
         <img src="{{ asset('img/window3.png') }}" class="window_img">
     </div>
 

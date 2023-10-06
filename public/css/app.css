@@ -235,9 +235,9 @@ input[type=checkbox].checkbox_pink {
 footer {
     background: #F2E1E4 0% 0% no-repeat padding-box;
     letter-spacing: 0px;
-    padding: 50px 150px 20px;
+    padding: 4vw 10vw 1.5vw;
     width:100%;
-    height: 650px;
+    height: 52vw;
     background-size: cover;
 }
 .footer_title {
@@ -263,12 +263,12 @@ footer {
 }
 .footer_logo {
     width: 12vw;
-    margin: -2vw auto 30px;
+    margin: -2vw auto 2.5vw;
     display: block;
 }
 .copyright {
     text-align: center;
-    font: normal normal normal 14px/31px Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/2.4vw Kozuka Gothic Pr6N;
     color: #FFFFFF;
 }
 
@@ -277,16 +277,16 @@ footer {
     color: #503C3C;
     letter-spacing: 2px;
     text-shadow: 0px 1px 2px #FFFFFF;
-    margin-right:50px;
-    margin-bottom: 20px;
+    margin-right:4vw;
+    margin-bottom: 2vw;
 }
 .footer_flex {
     display: flex;
     justify-content: space-between;
     width:100%;
     flex-wrap: wrap;
-    margin-bottom: 30px;
-    margin-top: 5px;
+    margin-bottom: 2.5vw;
+    margin-top: 0.5vw;
 }
 .footer_link2, .footer_link3 {
     display: block;

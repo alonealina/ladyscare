@@ -48,7 +48,7 @@
             @yield('content')
 
             <footer>
-                <div class="{{ route('category') }}"><a href="" class="footer_link1">CATEGORY</a></div>
+                <div><a href="{{ route('category') }}" class="footer_link1">CATEGORY</a></div>
                 <div class="footer_flex">
                     <a href="{{ route('category') }}" class="footer_link2">ミルク・ローション・ソープ</a>
                     <a href="{{ route('category') }}" class="footer_link2">トリートメント・保湿パック</a>
@@ -58,7 +58,7 @@
                     <a href="{{ route('category') }}" class="footer_link2">オイル</a>
                 </div>
 
-                <div class="{{ route('trouble') }}"><a href="" class="footer_link1">TROUBLE</a></div>
+                <div><a href="{{ route('trouble') }}" class="footer_link1">TROUBLE</a></div>
                 <div class="footer_flex">
                     <a href="{{ route('trouble_detail') }}" class="footer_link3">気になる黒ずみや嫌なニオイ</a>
                     <a href="" class="footer_link3">年齢とともにハリがなくなって起こるたるみ</a>
@@ -68,7 +68,7 @@
                     <a class="footer_link3"></a>
                 </div>
 
-                <div class="">
+                <div>
                     <a href="{{ route('pickup') }}" class="footer_link1">PICK UP</a>
                     <a href="{{ route('ranking') }}" class="footer_link1">RANKING</a>
                     <a href="{{ route('news') }}" class="footer_link1">NEWS</a>
