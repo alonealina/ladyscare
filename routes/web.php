@@ -43,3 +43,5 @@ Route::get('item_buy_normal', 'App\Http\Controllers\NokotsudoController@item_buy
 Route::get('not_member_form', 'App\Http\Controllers\NokotsudoController@not_member_form')->name('not_member_form');
 
 Route::get('item_detail', 'App\Http\Controllers\NokotsudoController@item_detail')->name('item_detail');
+
+Route::get('mypage', 'App\Http\Controllers\NokotsudoController@mypage')->name('mypage');

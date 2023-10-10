@@ -6,7 +6,10 @@
     <a href="#" class=""><img src="{{ asset('img/line_sphere.png') }}" class="" style="width:100px"></a>
 </div>
 
-<div class="top_bg1"></div>
+<div class="top_slider">
+    <div class="top_slider1"></div>
+    <div class="top_slider2"></div>
+</div>
 
 <div class="top_category_div">
     <img src="{{ asset('img/top_category_title.png') }}" class="top_category_title">

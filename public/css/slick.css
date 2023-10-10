@@ -1,0 +1,190 @@
+/*==================================================
+スライダーのためのcss
+===================================*/
+.category_slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 auto;
+}
+
+.category_slider img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+.category_slider .slick-slide {
+    margin:0 0.5vw;
+}
+
+/*矢印の設定*/
+/*戻る、次へ矢印の位置*/
+.category_slider .slick-prev, 
+.category_slider .slick-next {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    outline: none;
+    height: 3vw;
+    width: 3vw;
+    padding: 1vw;
+    font: normal normal normal 1.2vw/1.2vw Devanagari MT;
+    border: 1px solid #FF4D8E;
+    border-radius: 100%;
+    color: #FF4D8E;
+}
+
+.category_slider .slick-prev {/*戻る矢印の位置と形状*/
+    left: -5vw;
+}    
+
+.category_slider .slick-next {/*次へ矢印の位置と形状*/
+    left: 82vw;
+}
+
+
+
+
+/*==================================================
+TOPスライダーのためのcss
+===================================*/
+.top_slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 auto;
+}
+
+.top_slider img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+.top_slider .slick-slide {
+    margin:0 0vw;
+}
+
+/*ドットナビゲーションの設定*/
+
+.top_slider .slick-dots {
+  text-align: center;
+  margin: 0 0 0 0;
+  position: relative;
+  top: -4vw;
+}
+
+.top_slider .slick-dots li {
+    display:inline-block;
+    margin:0 8px;
+}
+
+.top_slider .slick-dots button {
+    color: transparent;
+    outline: none;
+    width: 11px;
+    height: 12px;
+    display:block;
+    border-radius:50%;
+    background:#fff;/*ドットボタンの色*/
+    border: none;
+}
+
+.top_slider .slick-dots .slick-active button{
+    background:#743F3F7F;/*ドットボタンの現在地表示の色*/
+}
+
+
+
+.slider-sp, .slider-article {
+    display: none;
+}
+.slider-sp.slick-initialized, .slider-article.slick-initialized {
+    display: block; /*slick-initializedが付与されたら表示*/
+}
+
+.slider-sp, .slider-article {
+    padding: 10px;
+}
+.slider-sp .slick-slide {
+    width: 100vw;
+    height: 71vw;
+    margin: 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+.slider-article .slick-slide {
+    width: 30vw;
+    height: 70vw;
+    margin: 0px 4px;
+    position: relative;
+    overflow: hidden;
+}
+.slider-sp .slick-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  .slider-sp .slick-arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0;
+    position: absolute;
+    top: 35vw;
+    z-index: 1;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  }
+  .slider-sp .slick-arrow::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #09000d;
+    border-width: 3px 3px 0 0;
+    position: absolute;
+    top: 24px;
+    transform: rotate(45deg);
+  }
+  .slider-sp .slick-next {
+    right: 0;
+  }
+  .slider-sp .slick-prev {
+    left: 0;
+  }
+  .slider-sp .slick-next::before {
+    left: 20px;
+  }
+  .slider-sp .slick-prev::before {
+    border-width: 0 0 3px 3px;
+    right: 22px;
+  }
+  .dots-2 .slick-dots {
+    text-align: center;
+    top: 78vw;
+  }
+  .dots-2 .slick-dots li {
+    display: inline-block;
+  }
+  .dots-2 .slick-dots button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 6px;
+    font-size: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .dots-2 .slick-dots li button:before {
+    color: white;
+}
+.dots-2 .slick-dots .slick-active button {
+    background: #EEB7CB;
+  }
+.dots-2 .slick-dots .slick-active button:before {
+    color: #EEB7CB;
+  }

@@ -187,6 +187,11 @@ class NokotsudoController extends Controller
         return view('item_detail');
     }
     
+    public function mypage()
+    {
+        return view('mypage');
+    }
+    
 
     
     

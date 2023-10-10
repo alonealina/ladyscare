@@ -5,7 +5,32 @@
     <div class="pickup_title">PICK UP</div>
 
     <div class="pickup_genre_title">#お気に入り登録多数の人気アイテム</div>
-    <div class="category_flex">
+    <div class="category_flex category_slider">
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item4.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
+        <a href="{{ route('item_detail') }}" class="category_item_a">
+            <img src="{{ asset('img/item5.png') }}" class="top3_item_img">
+            <div class="top3_item_name">商品名</div>
+            <div class="top3_item_name">￥1,000</div>
+        </a>
         <a href="{{ route('item_detail') }}" class="category_item_a">
             <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
             <div class="top3_item_name">商品名</div>
@@ -123,6 +148,7 @@
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 @endsection
 

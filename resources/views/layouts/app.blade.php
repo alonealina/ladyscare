@@ -33,14 +33,14 @@
                 </div>
                 <img src="{{ asset('img/header_logo.png') }}" class="header_logo_img">
 
-                <div class="header_menu">
+                <div class="header_menu" style="width: 34vw;">
                     <div class="">
                         <input class="header_input" placeholder="お探しの商品に関するワードを入力してください" name="search" type="text" id="search">
-                        <a href="{{ route('index') }}"><img src="{{ asset('img/search_btn.png') }}" style="width: 23px; margin-left:5px;"></a>
+                        <a href="{{ route('index') }}"><img src="{{ asset('img/search_btn.png') }}" style="width: 1.7vw; margin-left:0.4vw;"></a>
                     </div>
-                    <a href="{{ route('index') }}"><img src="{{ asset('img/human_btn.png') }}" style="width: 18px; margin-top: 14px;"></a>
-                    <a href="{{ route('fav') }}"><img src="{{ asset('img/fav_btn.png') }}" style="width: 26px; margin-top: 12px;"></a>
-                    <a href="{{ route('item_buy_normal') }}"><img src="{{ asset('img/cart_btn.png') }}" style="width: 30px; margin-top: 20px;"></a>
+                    <a href="{{ route('index') }}"><img src="{{ asset('img/human_btn.png') }}" style="width: 1.3vw; margin-top: 1vw;"></a>
+                    <a href="{{ route('fav') }}"><img src="{{ asset('img/fav_btn.png') }}" style="width: 1.8vw; margin-top: 0.9vw;"></a>
+                    <a href="{{ route('item_buy_normal') }}"><img src="{{ asset('img/cart_btn.png') }}" style="width: 2.4vw; margin-top: 1.3vw;"></a>
                 </div>
             </header>
             <div class="header_margin"></div>

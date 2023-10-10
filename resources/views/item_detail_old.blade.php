@@ -58,28 +58,25 @@
 
             <div class="item_detail_price_flex">
                 <div class="">
-                    <input type="radio" class="radio_orange" name="type" value="定期購入">定期購入 <span class="price_off_span">00%off</span>
-                    <a href="" class="price_detail_a">定期購入について詳しく見る</a>
-                    <div class="item_detail_price_div">
-                        1,800円<span style="font-size:1.5vw;">(税別)</span>　<span class="item_detail_price_gray">+ 送料500円</span>
+                    <input type="radio" class="radio_orange" name="type" value="定期購入">定期購入
+                    <div class="item_detail_price_list">
+                        <div class="item_detail_item">
+                            <div class="item_detail_reg">3ヶ月<br><span style="font-size: 0.8vw;">5,100円</span><span style="font-size: 0.6vw;">(税別)</span></div>
+                            <div class="orange_sphere">00%<br><span style="font-size:0.7vw;">お得</span></div>
+                        </div>
+                        <div class="item_detail_item">
+                            <div class="item_detail_reg">6ヶ月<br><span style="font-size: 0.8vw;">5,100円</span><span style="font-size: 0.6vw;">(税別)</span></div>
+                            <div class="orange_sphere">00%<br><span style="font-size:0.7vw;">お得</span></div>
+                        </div>
+                        <div class="item_detail_item">
+                            <div class="item_detail_reg">12ヶ月<br><span style="font-size: 0.8vw;">5,100円</span><span style="font-size: 0.6vw;">(税別)</span></div>
+                            <div class="orange_sphere">00%<br><span style="font-size:0.7vw;">お得</span></div>
+                        </div>
                     </div>
                 </div>
                 <div class="">
-                    <div>　数量　<input type="number" class="input_number" name="example1" value="1" style="margin-top: -0.5vw; margin-left: 0.26vw;"></div>
-                    <div>
-                        お届け　
-                        <select name="month" class="select_month" style="" id="month">
-                            <option value="1ヶ月">1ヶ月</option>
-                            <option value="2ヶ月">2ヶ月</option>
-                            <option value="3ヶ月">3ヶ月</option>
-                            <option value="4ヶ月">4ヶ月</option>
-                            <option value="5ヶ月">5ヶ月</option>
-                            <option value="6ヶ月">6ヶ月</option>
-                        </select>
-
-                    </div>
+                    数量　<input type="number" class="input_number" name="example1" value="1">
                 </div>
-                
             </div>
 
             <div class="item_detail_btn_flex">

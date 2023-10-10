@@ -62,7 +62,7 @@ header {
     letter-spacing: 0px;
     color: #FFFFFF;
     display: flex;
-    padding: 15px 50px;
+    padding: 1vw 4vw;
     justify-content: space-between;
     position: fixed;
     width: 100%;
@@ -70,19 +70,19 @@ header {
 }
 
 .header_menu {
-    width: 520px;
+    width: 40vw;
     display: flex;
     justify-content: space-between;
 }
 .header_a {
-    font: normal normal normal 16px/18px Arial;
+    font: normal normal normal 1.3vw/1.4vw Arial;
     letter-spacing: 0px;
     color: #242423;
-    padding-top: 20px;
+    padding-top: 1.3vw;
 }
 
 .header_margin {
-    margin-top:90px;
+    margin-top:5vw;
 }
 .header_logo_img {
     display: block;
@@ -103,21 +103,28 @@ header {
     margin: auto;
 }
 .header_input {
-    width: 350px;
-    font: normal normal normal 12px/17px Source Han Sans JP;
-    border-radius: 18px;
+    width: 23vw;
+    font: normal normal normal 0.8vw/1.2vw Source Han Sans JP;
+    border-radius: 1.5vw;
     border: 1px solid #707070;
-    height: 30px;
-    padding-left: 20px;
-    margin-top: 15px;
+    height: 2vw;
+    padding-left: 1.5vw;
+    margin-top: 1vw;
 }
 .header_input::placeholder {
     color: #CACACA;
 }
 
 
-.top_bg1 {
-    background-image: url(../img/top_bg1.png);
+.top_slider1 {
+    background-image: url(../img/top_slider1.png);
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 49vw;
+}
+.top_slider2 {
+    background-image: url(../img/top_slider2.png);
     width:100%;
     background-position: center;
     background-size: cover;
@@ -961,7 +968,19 @@ footer {
     font: normal normal bold 1.2vw/1.5vw Kozuka Gothic Pr6N;
     color: #000000;
 }
-
+.price_off_span {
+    font: normal normal normal 1.3vw/1.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #FF0000;
+    margin-left:0.1vw;
+    margin-right:2vw
+}
+.price_detail_a {
+    text-decoration: underline;
+    font: normal normal normal 1vw/2vw Arial;
+    letter-spacing: 0px;
+    color: #3169AA;
+}
 .radio_orange {
     -webkit-appearance: none;
     width: 20px;
@@ -998,9 +1017,18 @@ footer {
 .input_number {
     width: 6vw;
     padding: 0.5vw 0 0.5vw 2vw;
-    border-radius: 5px 0px 0px 5px;
+    /* border-radius: 5px 0px 0px 5px; */
+    border-radius: 0;
     margin-top: 1vw;
     border: 1px solid #000;
+    height: 3vw;
+}
+.select_month {
+    margin-top: 0.5vw;
+    width: 6vw;
+    padding: 0vw 0 0vw 1vw;
+    border: 1px solid #000;
+    height: 3vw;
 }
 .item_detail_price_list {
     background: #FFFFFF 0% 0% no-repeat padding-box;
