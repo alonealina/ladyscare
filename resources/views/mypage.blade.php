@@ -33,8 +33,8 @@
     <div class="gray_line"></div>
 
     <div class="mypage_flex">
-        <a href="#!" class="mypage_btn_a"><img src="{{ asset('img/mypage_btn1.png') }}"></a>
-        <a href="#!" class="mypage_btn_a"><img src="{{ asset('img/mypage_btn2.png') }}"></a>
+        <a href="{{ route('fav') }}" class="mypage_btn_a"><img src="{{ asset('img/mypage_btn1.png') }}"></a>
+        <a href="{{ route('history') }}" class="mypage_btn_a"><img src="{{ asset('img/mypage_btn2.png') }}"></a>
         <a href="{{ route('subsc_item') }}" class="mypage_btn_a"><img src="{{ asset('img/mypage_btn3.png') }}"></a>
     </div>
 

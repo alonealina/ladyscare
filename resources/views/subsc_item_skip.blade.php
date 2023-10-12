@@ -5,7 +5,7 @@
     <div class="category_title">定期購入中の商品</div>
     <div class="subsc_item_quantity">件数:　1件</div>
     <div class="subsc_item_flex">
-        <img src="http://localhost:8000/img/item_sample.png" class="item_detail_img">
+        <img src="{{ asset('img/item_sample.png') }}" class="item_detail_img">
         <div>
             <div class="item_detail_name">Care Female デリケート専用美容液</div>
             <div class="item_detail_price">
@@ -50,7 +50,7 @@
         <div class="popup_red">最終お届けは0000年00月00日になります。</div>
 
         <div class="popup_item_flex">
-            <img src="http://localhost:8000/img/item_sample.png" class="popup_img">
+            <img src="{{ asset('img/item_sample.png') }}" class="popup_img">
             <div>
                 <div class="popup_detail_name">Care Female デリケート専用美容液</div>
                 <div class="popup_detail_price">

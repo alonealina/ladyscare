@@ -49,4 +49,7 @@ Route::get('not_member_form', 'App\Http\Controllers\NokotsudoController@not_memb
 
 Route::get('item_detail', 'App\Http\Controllers\NokotsudoController@item_detail')->name('item_detail');
 
+Route::get('history', 'App\Http\Controllers\NokotsudoController@history')->name('history');
+Route::get('address_change', 'App\Http\Controllers\NokotsudoController@address_change')->name('address_change');
+
 Route::get('mypage', 'App\Http\Controllers\NokotsudoController@mypage')->name('mypage');

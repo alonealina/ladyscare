@@ -67,6 +67,18 @@ class NokotsudoController extends Controller
         return view('subsc_item_skip');
     }
 
+    public function history()
+    {
+        return view('history');
+    }
+
+    public function address_change()
+    {
+        return view('address_change');
+    }
+
+
+    
     public function contact()
     {
         return view('contact');
