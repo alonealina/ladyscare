@@ -13,6 +13,11 @@ Route::get('fav', 'App\Http\Controllers\NokotsudoController@fav')->name('fav');
 Route::get('news', 'App\Http\Controllers\NokotsudoController@news')->name('news');
 Route::get('news_detail', 'App\Http\Controllers\NokotsudoController@news_detail')->name('news_detail');
 
+Route::get('subscription', 'App\Http\Controllers\NokotsudoController@subscription')->name('subscription');
+Route::get('subsc_item', 'App\Http\Controllers\NokotsudoController@subsc_item')->name('subsc_item');
+Route::get('subsc_item_skip', 'App\Http\Controllers\NokotsudoController@subsc_item_skip')->name('subsc_item_skip');
+
+
 Route::get('member_regist', 'App\Http\Controllers\NokotsudoController@member_regist')->name('member_regist');
 Route::get('member_comp', 'App\Http\Controllers\NokotsudoController@member_comp')->name('member_comp');
 

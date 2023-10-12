@@ -52,6 +52,21 @@ class NokotsudoController extends Controller
         return view('news_detail');
     }
 
+    public function subscription()
+    {
+        return view('subscription');
+    }
+
+    public function subsc_item()
+    {
+        return view('subsc_item');
+    }
+
+    public function subsc_item_skip()
+    {
+        return view('subsc_item_skip');
+    }
+
     public function contact()
     {
         return view('contact');

@@ -8,7 +8,7 @@
 
 <div class="top_slider">
     <div class="top_slider1"></div>
-    <div class="top_slider2"></div>
+    <div class="top_slider2"><a href="{{ route('subscription') }}" class="top_subsc_a"><img src="{{ asset('img/top_subsc_btn.png') }}" class="top_subsc_btn"></a></div>
 </div>
 
 <div class="top_category_div">

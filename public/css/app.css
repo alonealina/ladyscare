@@ -1284,6 +1284,296 @@ footer {
     letter-spacing: 0.1vw;
     color: #503C3C;
 }
+.top_subsc_a {
+    display: block;
+    margin: auto;
+    width: 20vw;
+}
+.top_subsc_btn {
+    margin: 39vw auto 0;
+    display: block;
+    width: 20vw;
+}
+
+.subsc_title {
+    font: normal normal 600 2.7vw/3vw Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    padding:1vw;
+    background: #2D2A24 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin:4vw 0;
+}
+.subsc_flex {
+    width:70vw;
+    display: flex;
+    justify-content: space-between;
+    margin:4vw auto;
+}
+.subsc_no {
+    display: block;
+    width:6vw;
+    height:6vw;
+    margin-top: 4vw;
+}
+.subsc_text {
+    font: normal normal normal 1.6vw/2.5vw Segoe UI;
+    letter-spacing: 0px;
+    color: #2D2A24;
+    width: 24vw;
+    margin-top: 4.5vw;
+}
+.subsc_flex span {
+    font: normal normal normal 1.1vw/1.8vw Segoe UI;
+    color: #3169AA;
+}
+.subsc2 {
+    width: 30vw;
+    padding-right: 4vw;
+}
+.skipstop {
+    width:20vw;
+    margin: 3vw auto;
+    display: block;
+}
+.subsc_box {
+    border: 1px solid #3169AA;
+    width: 50vw;
+    padding:2vw;
+    font: normal normal normal 1.3vw/2vw Segoe UI;
+    color: #2D2A24;
+    margin: 3vw auto;
+}
+.subsc_box_title {
+    font: normal normal 600 2.5vw/3.5vw Segoe UI;
+    color: #2D2A24;
+}
+.subsc_box_sub {
+    font: normal normal normal 1.2vw/1.8vw Segoe UI;
+    letter-spacing: 0px;
+    color: #3169AA;
+}
+.subsc_box_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3vw 0;
+}
+.subsc_box_blue {
+    background: #3169AA 0% 0% no-repeat padding-box;
+    font: normal normal 600 1.8vw/2.5vw Segoe UI;
+    color: #FFFFFF;
+    width: 10vw;
+    padding:1.7vw 0;
+    text-align: center;
+    height: 6vw;
+}
+.subsc_box_text {
+    width: 34vw;
+    padding-top: 0.7vw;
+}
+.subsc_box_text span {
+    font: normal normal normal 1vw/1.8vw Segoe UI;
+    color: #2D2A24;
+    margin-left: 2vw;
+}
+
+.mypage_myname {
+    font: normal normal normal 2vw/2.3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.2vw;
+    color: #2D2A24;
+    margin:3vw 5vw;
+}
+.mypage_point_div {
+    width: 100%;
+    padding:2.5vw 15vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: normal normal normal 1.8vw/4vw Arial;
+    color: #3169AA;
+}
+.mypage_point_div span {
+    font: normal normal normal 2.4vw/4vw Arial;
+    margin-left: 3vw;
+}
+.mypage_edit_a {
+    border: 3px solid #3169AA;
+    border-radius: 25px;
+    width: 5vw;
+    text-align: center;
+    padding: 0.4vw 0;
+    font: normal normal normal 1vw/1.5vw Arial;
+    color: #3169AA;
+    display: block;
+    float: right;
+    top: -1vw;
+    position: relative;
+}
+.mypage_flex {
+    display: flex;
+    width: 36vw;
+    margin: 4vw auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mypage_btn_a {
+    display: block;
+    width: 17vw;
+    margin-bottom: 1vw;
+}
+.mypage_btn_a img {
+    width: 100%;
+}
+
+.subsc_item_quantity {
+    font: normal normal normal 1.6vw/2.3vw Arial;
+    letter-spacing: 0.1vw;
+    color: #2D2A24;
+    margin: 4vw 2vw;
+}
+.subsc_item_flex {
+    display: flex;
+    width: 80%;
+    margin: 3vw auto;
+}
+.subsc_item_flex2 {
+    display: flex;
+    width: 80%;
+    margin: 3vw auto;
+    justify-content: space-between;
+}
+.subsc_item_line {
+    height: 2px;
+    width: 90%;
+    margin: 3vw auto;
+    background-color: #000;
+}
+.subsc_item_a {
+    border: 3px solid #3169AA;
+    border-radius: 25px;
+    width: 5vw;
+    text-align: center;
+    padding: 0.4vw 0;
+    font: normal normal normal 1vw/1.5vw Arial;
+    color: #3169AA;
+    display: block;
+    float: right;
+    position: relative;
+    height: 2.6vw;
+}
+.subsc_item_btn_w {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #2D2A24;
+    border-radius: 20px;
+    width: 25vw;
+    padding:0.8vw 0;
+    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    color: #2D2A24;
+    margin: 1vw auto;
+    display: block;
+    text-align: center;
+}
+.subsc_item_btn_b {
+    background: #2D2A24 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    width: 25vw;
+    padding:0.8vw 0;
+    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    color: #FFFFFF;
+    margin: 1vw auto;
+    display: block;
+    text-align: center;
+}
+.skip_after_btn {
+    background: #707070 0% 0% no-repeat padding-box;
+    color: #FFFFFF8C!important;
+}
+
+
+
+/* ポップアップ */
+.popup_bg {
+    position: fixed; /* ブラウザの定位置に固定 */
+	background: rgba(0, 0, 0, .5); /* 背景色を半透明の黒色に */
+	width: 100%; /* 要素の横幅を画面全体に */
+	height: 100%; /* 要素の高さを画面全体に */
+	top: 0; /* 要素の固定位置をブラウザ最上部に合わせる */
+	left: 0; /* 要素の固定位置をブラウザ左側に合わせる */
+	z-index: 5000; /* 要素をコンテンツより前面に（要調整） */
+}
+.sample-popup-content {
+	/* ポップアップ本体 */
+	display: inline-block;
+	position: fixed;
+	width: 35vw;
+	z-index: 6000;
+	background: #fff;
+	padding: 2% 2% 4%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow-y: scroll;
+    font: normal normal normal 1.4vw/1.4vw Kozuka Gothic Pr6N;
+    color: #2D2A24;
+    border: 1px solid #707070;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+}
+.popup_title {
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+.popup_red {
+    font: normal normal normal 1vw/1.2vw Kozuka Gothic Pr6N;
+    letter-spacing: 0px;
+    color: #CC2424;
+    margin-top: 0.5vw;
+    margin-bottom: 3.5vw;
+}
+.popup_img {
+    width: 7vw;
+    display: block;
+    margin-right: 1vw;
+}
+.popup_item_flex {
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+.popup_detail_name {
+    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    color: #000000;
+    margin-bottom: 1vw;
+    margin-top: 0.3vw;
+}
+.popup_detail_price {
+    font: normal normal normal 1.1vw/1.5vw Kozuka Gothic Pr6N;
+    color: #000000;
+}
+.popup_btn_flex {
+    display: flex;
+    padding:0 20%;
+    margin-top: 3vw;
+    justify-content: space-between;
+}
+.popup_btn_flex a {
+    color: #2D2A24;
+    display: block;
+}
+.popup_back_btn {
+    margin-top: 3vw;
+    color: #2D2A24;
+    display: block;
+}
+.skip_after_red {
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+
+
 
 
 

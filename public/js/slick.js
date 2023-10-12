@@ -18,7 +18,7 @@ $('.category_slider').slick({
 });
 
 $('.top_slider').slick({
-  autoplay: true,//自動的に動き出すか。初期値はfalse。
+  autoplay: false,//自動的に動き出すか。初期値はfalse。
   infinite: true,//スライドをループさせるかどうか。初期値はtrue。
   slidesToShow: 1,//スライドを画面にX枚見せる
   slidesToScroll: 1,//1回のスクロールでX枚の写真を移動して見せる

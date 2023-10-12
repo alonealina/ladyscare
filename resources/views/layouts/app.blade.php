@@ -38,7 +38,7 @@
                         <input class="header_input" placeholder="お探しの商品に関するワードを入力してください" name="search" type="text" id="search">
                         <a href="{{ route('index') }}"><img src="{{ asset('img/search_btn.png') }}" style="width: 1.7vw; margin-left:0.4vw;"></a>
                     </div>
-                    <a href="{{ route('index') }}"><img src="{{ asset('img/human_btn.png') }}" style="width: 1.3vw; margin-top: 1vw;"></a>
+                    <a href="{{ route('mypage') }}"><img src="{{ asset('img/human_btn.png') }}" style="width: 1.3vw; margin-top: 1vw;"></a>
                     <a href="{{ route('fav') }}"><img src="{{ asset('img/fav_btn.png') }}" style="width: 1.8vw; margin-top: 0.9vw;"></a>
                     <a href="{{ route('item_buy_normal') }}"><img src="{{ asset('img/cart_btn.png') }}" style="width: 2.4vw; margin-top: 1.3vw;"></a>
                 </div>
