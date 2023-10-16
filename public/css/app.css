@@ -99,9 +99,6 @@ header {
     position: relative;
     margin-left: 0px;
 }
-.header_logo_sp {
-    margin: auto;
-}
 .header_input {
     width: 23vw;
     font: normal normal normal 0.8vw/1.2vw Source Han Sans JP;
@@ -129,6 +126,20 @@ header {
     background-position: center;
     background-size: cover;
     height: 49vw;
+}
+.top_slider1_sp {
+    background-image: url(../img/top_slider1_sp.png);
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 160vw;
+}
+.top_slider2_sp {
+    background-image: url(../img/top_slider2_sp.png);
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 160vw;
 }
 .top1_text {
     -ms-writing-mode: tb-rl;
@@ -1666,342 +1677,348 @@ footer {
 
 
 @media screen and (max-width: 500px) {
-    header {
-        background-position: center;
-        background-size: cover;
-        height: 50px;
-        padding: 10px;
-    }
-    .header_menu {
-        display: inline;
+    .fix_line {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+        z-index: 9000;
     }
     .header_margin {
-        /* margin-top: 50px; */
-    }
-    .sp_fixed_left {
-        font: normal normal normal 15px/30px Hiragino Kaku Gothic Pro;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        text-shadow: 1px 1px 2px #000000;
-    }
-    .top1_left {
-        margin: 0 3%;
-        position: fixed;
-        bottom: 10vw;
-        width: 94%;
-        height: auto;
-        z-index: 6000;
-        display: flex;
-        justify-content: space-between;
-    }
-    .top1_left2 {
-        margin: 0 3%;
-        position: fixed;
-        bottom: 5vw;
-        width: 94%;
-        height: auto;
-        z-index: 6000;
-        display: flex;
-        justify-content: space-between;
-        font: normal normal normal 15px/30px Hiragino Kaku Gothic Pro;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        text-shadow: 1px 1px 2px #000000;
-    }
-    .top1_text {
-        font: normal normal normal 29px/40px Ten Mincho;
-        padding-top: 50px;
-    }
-    .top1_right {
-        font: normal normal normal 12px/16px Hiragino Kaku Gothic Pro;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        margin-right: 20px;
-        margin-left: auto;
-        position: relative;
-        top: 8vw;
-        width: 210px;
-        height: 200px;
-    }
-    .top_bg1 {
-        background-image: url(../img/top_bg1_sp.png);
-        width: 100%;
-        height: 680px;
-        background-position: center;
-        background-size: cover;
-        text-align: center;
-        font: normal normal normal 11px/20px Ten Mincho;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        text-shadow: 1px 1px 2px #000000;
-        padding-top: 50px;
-        min-height: 680px;
-    }
-    .top_bg2 {
-        width: 100%;
-        height: 56vw;
-        background-position: center;
-        background-size: cover;
-        text-align: center;
-        font: normal normal normal 14px/25px Ten Mincho;
-        letter-spacing: 0px;
-        padding-top: 50px;
-        min-height: 800px;
-    }
-    .top2_title {
-        text-align: center;
-        font: normal normal normal 25px/35px Ten Mincho;
-        letter-spacing: 0px;
-        margin-bottom: 20px;
-    }
-    .top2_youtube_text {
-        font: normal normal normal 15px/25px Kozuka Gothic Pr6N;
-        letter-spacing: 0px;
-        color: #000000;
-        width: 350px;
-        margin: auto;
-        text-align: left;
-    }
-    .top2_text {
-        width: 350px;
-        margin: 30px auto;
-        text-align: left;
-    }
-    .top_bg_black {
-        background: #131313 0% 0% no-repeat padding-box;
-        text-align: center;
-        font: normal normal normal 26px/35px Ten Mincho;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        padding: 50px 0 80px;
-        top: -3px;
-        position: relative;
-    }
-
-    .top_bg5 {
-        background-image: url(../img/top_bg5_sp.png);
-        width: 100%;
-        height: 38vw;
-        background-position: center;
-        background-size: cover;
-        min-height: 260px;
-        text-align: right;
-        padding-top: 10vw;
-        padding-right: 6vw;
-    }
-    .top5_title {
-        font: normal normal normal 20px/25px Ten Mincho;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        text-shadow: 1px 1px 2px #000000;
-        margin-bottom: 10px;
-    }
-    .top5_text {
-        font: normal normal normal 14px/20px Ten Mincho;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        text-shadow: 1px 1px 2px #000000;
-    }
-    .top_bg_black2 {
-        font: normal normal normal 30px/35px Ten Mincho;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        padding: 50px 0;
-        top: -3px;
-        position: relative;
-        height: 2240px;
-    }
-    .top_black_title {
-        font: normal normal normal 20px/25px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000;
-        text-shadow: 0px 0px 5px #FFBB00;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .ma_img {
-        width: 350px;
-        margin: auto;
-        display: block;
-    }
-    .ma_title {
-        width: 150px;
-        display: block;
-        margin: 20px auto 10px 39%;
-    }
-    .ma_text {
-        text-align: center;
-        font: normal normal normal 14px/20px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000;
-        margin-bottom: 30px;
-    }
-    .ma_text_flex {
-        display: flex;
-        width: 280px;
-        text-align: left;
-        margin: auto;
-        justify-content: space-between;
-    }
-    .ma_btn {
-        width: 180px;
-        margin-top: 10px;
-    }
-    .top_bg6 {
-        background-image: url(../img/top_bg6_sp.png);
-        width: 100%;
-        height: 680px;
-        background-position: right;
-        background-size: cover;
-        font: normal normal normal 20px/25px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000000;
-        padding-left: 20px;
-        padding-right: 10px;
-        padding-top: 50px;
-    }
-    .top6_text1 {
-        letter-spacing: 0px;
-        color: #000000;
-        margin-bottom: 5px;
-        font: normal normal normal 13px/18px Ten Mincho;
-        padding-left: 1em;
-        text-indent: -1.8em;
-        width: 335px;
-        margin: 5px auto;
-    }
-    .top6_text2 {
-        font: normal normal normal 13px/18px Ten Mincho;
-        padding-left: 1em;
-        text-indent: -1.8em;
-        letter-spacing: 0px;
-        color: #D11F1F;
-        margin-bottom: 10px;
-        width: 335px;
-        margin: 10px auto;
-    }
-    .top6_title {
-        display: block;
-        margin: 10px auto;
-        width: 220px;
-    }
-    .top7_title {
-        margin: auto;
-        display: block;
-        width: 350px;
-    }
-    .top_bg7 {
-        background-image: url(../img/top_bg7_sp.png);
-        width: 100%;
-        height: 28vw;
-        background-position: center;
-        background-size: cover;
-        min-height: 370px;
-        position: relative;
-        top: -1px;
-        padding-top: 70px;
-    }
-    .top8_box {
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 8px;
-        padding: 10px;
-        font: normal normal normal 16px/25px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000000;
-        width: 350px;
-        margin: 20px auto;
-    }
-    .top8_title {
-        margin: 0 auto 30px 30%;
-        display: block;
-        width: 200px;
-    }
-    .top8_age {
-        margin-top: 10px;
-    }
-    .top_bg9 {
-        padding-top: 50px;
-        height: 1180px;
-    }
-    .contact_div {
-        width: 350px;
-        margin: 5px auto 20px;
-    }
-    .contact_text, .contact_textarea {
-        border: 1px solid #707070;
-    }
-    .send_btn, .send_btn:hover {
-        background: #000000 0% 0% no-repeat padding-box;
-        padding: 10px;
-        width: 350px;
-        text-align: center;
-        font: normal normal normal 20px/25px Ten Mincho;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        display: block;
-        margin: auto;
-        text-decoration: none;
-    }
-    .top_bg8 {
-        background-image: url(../img/top_bg8.png);
-        width: 100%;
-        height: 1200px;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        top: -2px;
-        padding-top: 50px;
+        margin-top: 50px;
     }
     footer {
-        background: #F1EBDC;
+        background: #F2E1E4 0% 0% no-repeat padding-box;
         letter-spacing: 0px;
-        color: #000;
-        padding-top: 50px;
-        padding-bottom: 20px;
-        background-image: url(../img/footer_bg_sp.png);
+        padding: 25px 15px;
         width: 100%;
-        height: 600px;
-        background-size: auto;
+        height: 540px;
+        background-size: cover;
     }
-    .footer_title {
-        font: normal normal normal 20px/35px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000;
+    .footer_link1 {
+        font: normal normal bold 16px/29px Arial;
+        color: #503C3C;
+        letter-spacing: 1.5px;
+        text-shadow: 0px 1px 2px #FFFFFF;
+        margin-right: 0;
         margin-bottom: 10px;
-        text-align: center;
-    }
-    .footer_title2 {
-        font: normal normal normal 16px/35px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000;
-        margin: 0 auto 10px;
-        width: 250px;
-    }
-    .footer_text1 {
-        font: normal normal normal 14px/20px Ten Mincho;
-        letter-spacing: 0px;
-        color: #000;
-        margin: 0 auto 20px;
-        width: 250px;
-    }
-    .footer_logo {
-        width: 180px;
-        margin: 50px auto 20px;
         display: block;
     }
-    .mail_comp {
-        background-image: url(../img/top_bg8.png);
+    .footer_sns_img {
+        width: 30px;
+    }
+    .footer_sns_flex {
+        width: 35vw;
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_flex_white {
         width: 100%;
-        height: 200px;
-        background-position: center;
-        background-size: cover;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer_link_white {
+        display: block;
+        font: normal normal normal 3vw/6vw Kozuka Gothic Pr6N;
+    }
+    .copyright {
+        text-align: left;
+        font: normal normal normal 3vw/6vw Kozuka Gothic Pr6N;
+        margin-top: 30px;
+    }
+    .header_logo {
+        margin-top: 10px;
+        width: 120px;
+    }
+    header {
+        height: 50px;
+        padding-right: 55px;
+    }
+    .header_input {
+        width: calc(100vw - 80px);
+        font: normal normal normal 11px/11px Source Han Sans JP;
+        border-radius: 15px;
+        border: 1px solid #242423;
+        background: #F8F1EA 0% 0% no-repeat padding-box;
+        height: 27px;
+        padding-left: 10px;
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .mypage_bar {
+        width: calc(100vw - 25px);
+        margin-left: 25px;
+    }
+
+    .top_subsc_btn {
+        display: block;
+        width: 32vw;
+        margin-top: 137vw;
+        margin-left: 24vw;
+    }
+
+    .top_title_sp {
+        text-align: center;
+        font: normal normal bold 31px/29px Arial;
+        letter-spacing: 3.1px;
+        color: #242423;
+        margin-top: 40px;
+    }
+    .top_category_a {
+        width: 49.7vw;
+        display: block;
+        margin-bottom: 0.3vw;
+    }
+    .view_all_btn {
+        display: block;
+        float: right;
+        width: 65vw;
+        margin-top: 20px;
+    }
+    .top_category_flex {
+        margin: 30px 0 0;
+    }
+    .top_bg2 {
+        padding: 15px;
+        height: 580px;
+    }
+    .top_bg2_flex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 90px;
+        width: 100%;
+    }
+    .trouble_sp {
+        width: 60px;
+        display: block;
+        height: 225px;
+    }
+    .top2_a {
+        display: block;
+        width: 100%;
+        text-align: right;
+        margin-top: 40px;
+        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 3.64px;
+        color: #242423;
+    }
+    .top_bg3 {
+        padding: 0 0 30px;
+    }
+    .top3_text {
+        font: normal normal bold 14px/20px Kozuka Gothic Pro;
+        color: #338F86;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+    .top3_list {
+        width: 100vw;
+    }
+    .top3_item_a {
+        width: 33vw;
+        font: normal normal normal 12px/20px Arial;
+        padding-bottom: 10px;
+    }
+    .top3_item_name {
+        padding: 0 10px;
+        margin: 5px 0;
+        color: #000000;
+    }
+    .detail_btn {
+        margin: 20px auto 0;
+        width: 170px;
+        display: block;
+    }
+    .top_ranking_a {
+        font: normal normal normal 11px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 1.1px;
+    }
+    .top_rank3 {
+        width: 100vw;
+        margin: 50px auto;
+    }
+    .rank_img {
         position: relative;
-        top: -2px;
-        padding-top: 80px;
-        font-size: 17px;
+        top: 5px;
+        left: 5px;
+        width: 24px;
+    }
+    .ranking_item_img {
+        width: 100%;
+        display: block;
+        margin-top: -24px;
+    }
+    .top_news_bg {
+        height: 500px;
+        padding: 30px 15px;
+    }
+    .top_news_title {
+        text-align: left;
+        font: normal normal bold 30px/30px Arial;
+        letter-spacing: -0.21px;
+        color: #FFFFFF;
+    }
+    .top_news_a {
+        display: block;
+        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 1.4px;
+        color: #FFFFFF;
+        text-align: right;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    .top_news_img {
+        width: 100px;
+        height: 100px;
+    }
+    .top_news_box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .top_news_content {
+        width: 230px;
+        padding-top: 5px;
+        font: normal normal bold 14px/20px Kozuka Gothic Pr6N;
+        color: #000000;
+    }
+    .top_news_content span {
+        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+    }
+
+
+    /* ハンバーガーメニュー */
+    .hamburger-menu {
+        position: fixed;
+        z-index: 6000;
+    }
+    .menu-btn {
+        position: absolute;
+        top: 0vw;
+        right: 0vw;
+        display: flex;
+        position: fixed;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background: none;
+        border: none;
+        width: 50px;
+        transition: 0.5s;
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 3px;
+        background-color: #000;
+        position: absolute;
+        transition: 0.5s;
+    }
+    .menu-btn span {
+        width: 25px;
+    }
+    .menu-btn span:before {
+        bottom: 10px;
+        width: 25px;
+    }
+    .menu-btn span:after {
+        top: 10px;
+        width: 25px;
+    }
+    #menu-btn-check {
+        display: none;
+    }
+
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+    }
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        width: 25px;
+        bottom: 0;
+        transform: rotate(45deg);
+        background-color: #000;
+    }
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+        background-color: #000;
+    }
+    .menu-content, .menu-content_work {
+        top: 0px;
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        z-index: 80;
+        background-color: rgba(248, 241, 234, 0.9);
+        transition: all 0.2s;
+        display: none;
+        opacity: 0;
+        padding-top: 10px;
+    }
+    .header_flex {
+        padding:20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header_a {
+        font: normal normal bold 15px/20px Arial;
+        letter-spacing: -0.18px;
+        color: #000000;
+        display: block;
+        position: relative;
+        transition: 0.2s;
+        margin-bottom: 20px;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-bottom: 1px solid;
+        margin-left: 30px;
+    }
+    .header_column {
+        width: 47%;
+    }
+    .menu_btn_flex {
+        display: flex;
+        margin: 25px 50px 20px auto;
+        width: 150px;
+        justify-content: space-between;
+    }
+    .header_link {
+        display: block;
+        font: normal normal normal 3vw/6vw Kozuka Gothic Pr6N;
+        color: #000;
+    }
+    .header_flex_sp {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding:0 15px;
+    }
+    .header_logo_sp {
+        width: 90px;
+    }
+    .copyright_header {
+        font: normal normal normal 10px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 0px;
+        color: #242423;
         text-align: center;
     }
+    
 }
+
 
 .g-recaptcha {
     width: 300px;

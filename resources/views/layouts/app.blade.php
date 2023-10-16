@@ -103,22 +103,76 @@
     <div id="registration_sp">
         <body>
             <header>
-                <div class="header_logo_sp" id="header_logo"><a href="{{ route('index') }}"><img src="{{ asset('img/logo_header.png') }}" style="width: 190px;"></a></div>
+                <a href="{{ route('index') }}" class=""><img src="{{ asset('img/logo.png') }}" class="header_logo"></a>
+                <div class="header_menu" style="width: 68px;">
+                    <a href="{{ route('item_buy_normal') }}"><img src="{{ asset('img/cart_btn.png') }}" style="width: 35px; margin-top: 10px;"></a>
+                    <a href="{{ route('mypage') }}"><img src="{{ asset('img/human_btn.png') }}" style="width: 20px; margin-top: 5px;"></a>
+                </div>
             </header>
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-btn-check" name="menu_btn">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                <div class="menu-content_work">
+                    <div class="">
+                        <input class="header_input" placeholder="" name="search" type="text" id="search">
+                        <a href="{{ route('index') }}"><img src="{{ asset('img/search_btn_sp.png') }}" style="width: 14px; margin-left:-30px;"></a>
+                    </div>
+                    <a href="{{ route('category') }}" class="header_a">CATEGORY</a>
+                    <a href="{{ route('trouble') }}" class="header_a">TROUBLE</a>
+                    <a href="{{ route('pickup') }}" class="header_a">PICK UP</a>
+                    <a href="{{ route('ranking') }}" class="header_a">RANKING</a>
+                    <a href="{{ route('news') }}" class="header_a">NEWS</a>
+
+                    <a href="{{ route('mypage') }}"><img src="{{ asset('img/mypage_bar.png') }}" class="mypage_bar"></a>
+
+                    <div class="menu_btn_flex">
+                        <a href="#!"><img src="{{ asset('img/face_sp.png') }}" class="footer_sns_img"></a>
+                        <a href="#!"><img src="{{ asset('img/x_sp.png') }}" class="footer_sns_img"></a>
+                        <a href="#!"><img src="{{ asset('img/insta_sp.png') }}" class="footer_sns_img"></a>
+                    </div>
+
+                    <div class="header_flex_sp">
+                        <div>
+                            <a href="#!" class="header_link">カスタマーサポート</a>
+                            <a href="{{ route('contact') }}" class="header_link">お問い合わせ</a>
+                            <a href="#!" class="header_link">利用規約</a>
+                            <a href="#!" class="header_link">個人情報保護方針</a>
+                            <a href="#!" class="header_link">特定商取引法に基づく表示</a>
+                        </div>
+                        <img src="{{ asset('img/header_logo_sp.png') }}" class="header_logo_sp">
+                    </div>
+                    <div class="copyright_header">@copy.light</div>
+                </div>
+            </div>
             <div class="header_margin"></div>
 
 
             @yield('content_sp')
             <footer>
-                <div class="footer_title">運営会社情報</div>
-                <div class="footer_title2">遍照尊院大阪事務所</div>
-                <div class="footer_text1">
-                    〒540-0012<br>
-                    中央区谷町5丁目6-12新野村ビル７階<br><br>
-                    Tel:<a href="tel:0667685116">06-6768-5116</a>　Fax:06-6768-5117
+                <img src="{{ asset('img/logo.png') }}" style="width: 130px; margin-bottom:50px;">
+                <a href="{{ route('category') }}" class="footer_link1">CATEGORY</a>
+                <a href="{{ route('trouble') }}" class="footer_link1">TROUBLE</a>
+                <a href="{{ route('pickup') }}" class="footer_link1">PICK UP</a>
+                <a href="{{ route('ranking') }}" class="footer_link1">RANKING</a>
+                <a href="{{ route('news') }}" class="footer_link1">NEWS</a>
+
+
+
+                <div class="footer_sns_flex">
+                    <a href="#!"><img src="{{ asset('img/face_sp.png') }}" class="footer_sns_img"></a>
+                    <a href="#!"><img src="{{ asset('img/x_sp.png') }}" class="footer_sns_img"></a>
+                    <a href="#!"><img src="{{ asset('img/insta_sp.png') }}" class="footer_sns_img"></a>
                 </div>
-                <img src="{{ asset('img/footer_logo.png') }}" class="footer_logo">
-                <div class="copyright">copyright © 2023 henjokaku</div>
+
+                <div class="footer_flex_white">
+                    <a href="#!" class="footer_link_white">カスタマーサポート</a>
+                    <a href="{{ route('contact') }}" class="footer_link_white">お問い合わせ</a>
+                    <a href="#!" class="footer_link_white">利用規約</a>
+                    <a href="#!" class="footer_link_white">個人情報保護方針</a>
+                    <a href="#!" class="footer_link_white">特定商取引法に基づく表示</a>
+                </div>
+
+                <div class="copyright">@copy.light</div>
             </footer>
 
         </body>
@@ -128,7 +182,7 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="{{ asset('js/app_sp.js') }}"></script>
     <script src="{{ asset('js/slick.js') }}"></script>
-    <script src="{{ asset('js/recruit.js') }}"></script>
+    <script src="{{ asset('js/header.js') }}"></script>
     <script type="text/javascript">
     if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) 
         || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
