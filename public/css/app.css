@@ -1954,6 +1954,18 @@ footer {
         width: 76vw;
         font: normal normal normal 12px/22px Kozuka Gothic Pr6N;
     }
+    .reminder_text {
+        margin-bottom: 30px;
+        font: normal normal normal 13px/21px Kozuka Gothic Pr6N;
+    }
+    .login_div {
+        width: 320px;
+        margin: 5px auto 20px;
+    }
+    .contact_name {
+        font: normal normal normal 13px/21px Kozuka Gothic Pr6N;
+    }
+
 
 
 
