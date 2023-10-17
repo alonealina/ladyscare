@@ -1965,7 +1965,10 @@ footer {
     .contact_name {
         font: normal normal normal 13px/21px Kozuka Gothic Pr6N;
     }
-
+    .reminder_link {
+        font: normal normal normal 12px/26px Kozuka Gothic Pr6N;
+        margin: 10px;
+    }
 
 
 
