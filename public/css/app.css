@@ -2385,7 +2385,95 @@ footer {
         width: 90px;
         margin-bottom: 0.5vw;
     }
+    .mypage_myname {
+        font: normal normal normal 17px/29px Kozuka Gothic Pr6N;
+        letter-spacing: 1.7px;
+        margin: 0 30px 10px;
+    }
+    .mypage_point_div {
+        width: 100%;
+        padding: 15px 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        font: normal normal normal 15px/15px Arial;
+    }
+    .mypage_point_div span {
+        font: normal normal normal 25px/25px Arial;
+        margin-left: 30vw;
+    }
+    .pay_confirm_div {
+        width: 100%;
+        padding: 0 30px;
+        margin: 30px auto;
+        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        color: #000000;
+    }
+    .gray_line {
+        margin: 20px 0;
+    }
+    .mypage_edit_a {
+        border: 2px solid #3169AA;
+        border-radius: 25px;
+        width: 55px;
+        text-align: center;
+        padding: 5px 0;
+        font: normal normal normal 13px/20px Arial;
+        color: #3169AA;
+        display: block;
+        float: right;
+        top: -10px;
+        position: relative;
+    }
+    .mypage_btn_a {
+        display: block;
+        width: 220px;
+        margin: 15px auto;
+    }
+    .news_banner {
+        width: 90vw;
+        margin: 0 auto 50px;
+        display: block;
+    }
+    .page_title_sp_en {
+        font: normal normal bold 30px/29px Arial;
+        letter-spacing: 3px;
+        color: #242423;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .top_news_box {
+        width: 90vw;
+        margin: 15px auto;
+    }
+    .top_news_img {
+        width: 30vw;
+        height: 30vw;
+    }
+    .top_news_content {
+        width: 57vw;
+        padding-top: 5px;
+        font: normal normal bold 14px/20px KozGoPr6N;
+        color: #000000;
+    }
+    .top_news_date_gray {
+        padding-top: 20px;
+        font: normal normal normal 13px/21px Arial;
+        color: #CACACA;
+        text-align: right;
+    }
+    .news_detail_div {
+        width: 90vw;
+        margin: 4vw auto;
+        font: normal normal normal 15px/21px Kozuka Gothic Pr6N;
+        color: #000000;
+    }
+    .news_detail_title {
+        width: 60vw;
+        font: normal normal normal 17px/21px Kozuka Gothic Pr6N;
+        margin: 20px auto;
+    }
 
+
+    
 
     /* ハンバーガーメニュー */
     .hamburger-menu {

@@ -89,8 +89,45 @@
 
 @section('content_sp')
 
+<div class="page_title_sp_en">NEWS</div>
 
+<img src="{{ asset('img/news_banner_sp.png') }}" class="news_banner">
 
+<a href="{{ route('news_detail') }}" class="top_news_box">
+    <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
+    <div class="top_news_content">
+        ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
+        <div class="top_news_date_gray">2023.08.18</div>
+    </div>
+</a>
+<a href="{{ route('news_detail') }}" class="top_news_box">
+    <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
+    <div class="top_news_content">
+        ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
+        <div class="top_news_date_gray">2023.08.18</div>
+    </div>
+</a>
+<a href="{{ route('news_detail') }}" class="top_news_box">
+    <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
+    <div class="top_news_content">
+        ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
+        <div class="top_news_date_gray">2023.08.18</div>
+    </div>
+</a>
+<a href="{{ route('news_detail') }}" class="top_news_box">
+    <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
+    <div class="top_news_content">
+        ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
+        <div class="top_news_date_gray">2023.08.18</div>
+    </div>
+</a>
+<a href="{{ route('news_detail') }}" class="top_news_box">
+    <img src="{{ asset('img/news_dummy.png') }}" class="top_news_img">
+    <div class="top_news_content">
+        ニュースタイトルニュースタイトルニュースタイトルニュースタイトル
+        <div class="top_news_date_gray">2023.08.18</div>
+    </div>
+</a>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
