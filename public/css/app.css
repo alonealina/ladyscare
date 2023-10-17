@@ -1,26 +1,11 @@
 @font-face {
-    font-family: "Medio";
-    src:url("../font/medio.otf") format("opentype");
+    font-family: "KozGoPr6N";
+    src:url("../font/KozGoPr6N-Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family: "Trajan";
-    src:url("../font/TrajanPro-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Ryumin";
-    src:url("../font/A-OTF-RyuminPr5-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Matisse";
-    src:url("../font/FOT-MatisseElegantoPro-M.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Futura";
-    src: url('../font/futura_medium_bt.ttf') format('truetype');
+    font-family: "KozMinPr6N";
+    src:url("../font/KozMinPr6N-Regular.otf") format("opentype");
 }
 
 @media screen and (min-width: 501px) {
@@ -52,7 +37,7 @@
 }
 
 body {
-    font-family: Kozuka Gothic Pr6N;
+    font-family: KozGoPr6N;
     background: #F1EBDC 0% 0% no-repeat padding-box;
 
 }
@@ -178,7 +163,7 @@ input[type=checkbox].checkbox_pink {
 .check_text {
     width:37.5vw;
     color: #000000;
-    font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+    font: normal normal normal 14px/20px KozGoPr6N;
     text-decoration: underline;
 }
 
@@ -231,7 +216,7 @@ input[type=checkbox].checkbox_pink {
     padding: 1.3vw;
     width: 20vw;
     text-align: center;
-    font: normal normal normal 1.5vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/2vw KozGoPr6N;
     letter-spacing: 0px;
     color: #FFFFFF;
     display: block;
@@ -239,12 +224,12 @@ input[type=checkbox].checkbox_pink {
     text-decoration: none;
 }
 .error_message {
-    font: normal normal normal 14px/29px Kozuka Gothic Pr6N;
+    font: normal normal normal 14px/29px KozGoPr6N;
     color: #CC0000;
     text-align: center;
 }
 .comp_text {
-    font: normal normal normal 1.3vw/2.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/2.5vw KozGoPr6N;
     text-align: center;
     padding: 50px;
 }
@@ -286,7 +271,7 @@ footer {
 }
 .copyright {
     text-align: center;
-    font: normal normal normal 1.2vw/2.4vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/2.4vw KozGoPr6N;
     color: #FFFFFF;
 }
 
@@ -308,7 +293,7 @@ footer {
 }
 .footer_link2, .footer_link3 {
     display: block;
-    font: normal normal normal 1.1vw/1.6vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.6vw KozGoPr6N;
     color: #503C3C;
     text-shadow: 0px 1px 2px #FFFFFF;
 }
@@ -334,7 +319,7 @@ footer {
 }
 .footer_link_white {
     display: block;
-    font: normal normal normal 1.1vw/1.6vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.6vw KozGoPr6N;
     color: #fff;
 }
 
@@ -409,7 +394,7 @@ footer {
     width: 100%;
     text-align: right;
     margin-bottom: 6vw;
-    font: normal normal normal 1.5vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/2vw KozGoPr6N;
     letter-spacing: 0.6vw;
     color: #FFFFFF;
 }
@@ -474,7 +459,7 @@ footer {
     width:18vw;
 }
 .top_ranking_a {
-    font: normal normal normal 1.5vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/1.8vw KozGoPr6N;
     letter-spacing: 1.6px;
     color: #3169AA;
     display: block;
@@ -527,7 +512,7 @@ footer {
 }
 .top_news_a {
     display: block;
-    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/1.5vw KozGoPr6N;
     letter-spacing: 1.6px;
     color: #FFFFFF;
     text-align: center;
@@ -555,12 +540,12 @@ footer {
 .top_news_content {
     width:12vw;
     padding-top: 5px;
-    font: normal normal normal 1.1vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.3vw KozGoPr6N;
     color: #000000;
 }
 .top_news_date {
     padding-top: 1vw;
-    font: normal normal normal 1.1vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.3vw KozGoPr6N;
     color: #fff;
     text-align: right;
 }
@@ -575,7 +560,7 @@ footer {
     margin-bottom: 3vw;
 }
 .category_ja {
-    font: normal normal normal 14px/31px Kozuka Gothic Pr6N;
+    font: normal normal normal 14px/31px KozGoPr6N;
 }
 .category_flex {
     width:100%;
@@ -628,7 +613,7 @@ footer {
     width:30vw;
 }
 .trouble_a {
-    font: normal normal normal 1.3vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/2vw KozGoPr6N;
     letter-spacing: 0.4vw;
     color: #503C3C;
     margin:3vw 0;
@@ -656,7 +641,7 @@ footer {
 .trouble_detail_title {
     padding:0.8vw 3vw;
     text-align: center;
-    font: normal normal normal 1.8vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.8vw/1.8vw KozGoPr6N;
     letter-spacing: 0.3vw;
     color: #F5F8FC;
     background: #3169AA 0% 0% no-repeat padding-box;
@@ -707,7 +692,7 @@ footer {
 }
 .trouble_detail_blue {
     text-decoration: underline;
-    font: normal normal normal 1.7vw/1.7vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.7vw/1.7vw KozGoPr6N;
     letter-spacing: 0.3vw;
     color: #3169AA;
     margin-left: 15vw;
@@ -720,7 +705,7 @@ footer {
     justify-content: space-between;
 }
 .trouble_link_a {
-    font: normal normal normal 1.2vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/2vw KozGoPr6N;
     letter-spacing: 0.2vw;
     color: #503C3C;
 }
@@ -759,18 +744,18 @@ footer {
 }
 .top_news_date_gray {
     padding-top: 1vw;
-    font: normal normal normal 1.1vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.3vw KozGoPr6N;
     color: #CACACA;
     text-align: right;
 }
 .news_detail_div {
     width:75vw;
     margin:4vw auto;
-    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.5vw KozGoPr6N;
     color: #000000;
 }
 .news_detail_title {
-    font: normal normal bold 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.5vw/1.5vw KozGoPr6N;
     color: #000000;
     margin-top:10px;
     margin-bottom: 20px;
@@ -797,17 +782,17 @@ footer {
     margin-right:1.5vw;
 }
 .item_detail_name {
-    font: normal normal bold 1.5vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.5vw/2vw KozGoPr6N;
     color: #000000;
     margin-bottom: 1vw;
 }
 .item_detail_price {
-    font: normal normal normal 1.3vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/2vw KozGoPr6N;
     color: #000000;
 }
 .item_detail_sum {
     width:25vw;
-    font: normal normal normal 1.3vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/2vw KozGoPr6N;
     color: #000000;
     border-top:1px solid #CCCCCC;
     padding: 0.5vw 0;
@@ -823,7 +808,7 @@ footer {
     background: #242423 0% 0% no-repeat padding-box;
     text-align: center;
     color: #FFFFFF;
-    font: normal normal normal 1.4vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.4vw/1.5vw KozGoPr6N;
     padding:0.5vw 0;
     width:23vw;
     height: 4.5vw;
@@ -835,7 +820,7 @@ footer {
     background: #fff 0% 0% no-repeat padding-box;
     text-align: center;
     color: #242423;
-    font: normal normal normal 1.4vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.4vw/1.5vw KozGoPr6N;
     padding:0.5vw 0;
     width:23vw;
     height: 4.5vw;
@@ -846,7 +831,7 @@ footer {
 .pay_div {
     width:45vw;
     margin:5vw auto;
-    font: normal normal normal 1.2vw/2.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/2.2vw KozGoPr6N;
     color: #000000;
 }
 
@@ -862,7 +847,7 @@ footer {
 .pay_confirm_div {
     width:40vw;
     margin:5vw auto;
-    font: normal normal normal 1.2vw/1.6vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/1.6vw KozGoPr6N;
     color: #000000;
 }
 .edit_a {
@@ -870,7 +855,7 @@ footer {
     margin-bottom: 0.5vw;
     display: block;
     text-decoration: underline;
-    font: normal normal bold 1.4vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.4vw/2vw KozGoPr6N;
     letter-spacing: 0px;
     color: #000000;
 }
@@ -889,7 +874,7 @@ footer {
     text-align: center;
     width:50vw;
     margin:5vw auto;
-    font: normal normal normal 1.2vw/1.6vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/1.6vw KozGoPr6N;
     color: #000000;
 }
 
@@ -897,7 +882,7 @@ footer {
     width: 100%;
     text-align: center;
     text-decoration: underline;
-    font: normal normal normal 14px/21px Kozuka Gothic Pr6N;
+    font: normal normal normal 14px/21px KozGoPr6N;
     letter-spacing: 0px;
     color: #503C3C;
 }
@@ -945,18 +930,18 @@ footer {
     width:100%;
     padding-left: 1vw;
     padding-top: 1vw;
-    font: normal normal bold 1.8vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.8vw/2vw KozGoPr6N;
     letter-spacing: 0px;
     color: #000000;
     margin-bottom: 3vw;
 }
 .item_detail_text {
     margin:1vw 0;
-    font: normal normal normal 1.4vw/1.7vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.4vw/1.7vw KozGoPr6N;
     letter-spacing: 0.1vw;
 }
 .item_detail_tag {
-    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/1.5vw KozGoPr6N;
     color: #3169AA;
     margin-right:0.5vw;
 }
@@ -976,11 +961,11 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font: normal normal bold 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.2vw/1.5vw KozGoPr6N;
     color: #000000;
 }
 .price_off_span {
-    font: normal normal normal 1.3vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #FF0000;
     margin-left:0.1vw;
@@ -1014,14 +999,14 @@ footer {
     background: #FFBC78;
 }
 .item_detail_price_div {
-    font: normal normal bold 1.8vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.8vw/1.8vw KozGoPr6N;
     letter-spacing: 0px;
     color: #000000;
     padding-left: 2vw;
     padding-top: 0.6vw;
 }
 .item_detail_price_gray {
-    font: normal normal normal 1.5vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/1.8vw KozGoPr6N;
     letter-spacing: 0px;
     color: #707070;
 }
@@ -1067,7 +1052,7 @@ footer {
     height: 3vw;
     background: #FFBC78 0% 0% no-repeat padding-box;
     border-radius: 50px;
-    font: normal normal normal 1vw/1vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1vw KozGoPr6N;
     letter-spacing: 0px;
     color: #2D2A24;
     text-align: center;
@@ -1082,7 +1067,7 @@ footer {
     width:19vw;
     background: #000000 0% 0% no-repeat padding-box;
     text-align: center;
-    font: normal normal normal 1.1vw/1.1vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.1vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #FFFFFF;
     padding:1vw;
@@ -1100,7 +1085,7 @@ footer {
     border-left: 2px solid #242423;
     border-right: 2px solid #242423;
     border-top: 2px solid #242423;
-    font: normal normal normal 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #FFFFFF;
     background-color: #000;
@@ -1131,7 +1116,7 @@ footer {
 }
 .detail_content {
     padding:5vw;
-    font: normal normal normal 1vw/1.4vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.4vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #2E2E2E;
 }
@@ -1164,28 +1149,28 @@ footer {
 .qa_flex_s {
     width: 10vw;
     text-align: center;
-    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/1.3vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #242423;
 }
 .qa_flex_s_gray {
     width: 10vw;
     text-align: center;
-    font: normal normal normal 1.1vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.2vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #5D43438C;
 }
 .qa_flex_l {
     width: 40vw;
     text-align: center;
-    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/1.3vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #242423;
 }
 .qa_states {
     width: 10vw;
     border-radius: 2vw;
-    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/1.3vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #fff;
     text-align: center;
@@ -1200,7 +1185,7 @@ footer {
 }
 .qa_flex_text {
     width: 40vw;
-    font: normal normal normal 1.1vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.2vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #242423;
 }
@@ -1216,7 +1201,7 @@ footer {
     border: 1px solid #707070;
     border-radius: 17px;
     padding:1vw;
-    font: normal normal normal 1.1vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #FFFFFF;
 }
@@ -1233,19 +1218,19 @@ footer {
     border:#000 1px solid;
 }
 .review_box_title {
-    font: normal normal bold 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.5vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #503C3C;
 }
 .review_5star {
-    font: normal normal normal 3.5vw/3.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 3.5vw/3.5vw KozGoPr6N;
     letter-spacing: 1vw;
     color:#FFBC78;
     text-align: center;
     margin:2vw;
 }
 .review_5 {
-    font: normal normal normal 3vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 3vw/3vw KozGoPr6N;
     letter-spacing: 0.3vw;
     color: #503C3C;
     text-align: center;
@@ -1259,7 +1244,7 @@ footer {
 }
 .review_bar_star {
     width:4vw;
-    font: normal normal bold 1.5vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.5vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #503C3C;
 }
@@ -1274,24 +1259,24 @@ footer {
     height: 100%;
 }
 .review_bar_per {
-    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #503C3C;
     width:3vw;
 }
 .review_star {
-    font: normal normal normal 2vw/2.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 2vw/2.5vw KozGoPr6N;
     letter-spacing: 0.2vw;
     color: #503C3C;
 }
 .review_name {
-    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #5D43438C;
     margin: 1vw 0;
 }
 .review_text {
-    font: normal normal normal 1.2vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/1.5vw KozGoPr6N;
     letter-spacing: 0.1vw;
     color: #503C3C;
 }
@@ -1391,7 +1376,7 @@ footer {
 }
 
 .mypage_myname {
-    font: normal normal normal 2vw/2.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 2vw/2.3vw KozGoPr6N;
     letter-spacing: 0.2vw;
     color: #2D2A24;
     margin:3vw 5vw;
@@ -1478,7 +1463,7 @@ footer {
     border-radius: 20px;
     width: 25vw;
     padding:0.8vw 0;
-    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.2vw/1.2vw KozGoPr6N;
     color: #2D2A24;
     margin: 1vw auto;
     display: block;
@@ -1490,7 +1475,7 @@ footer {
     border-radius: 20px;
     width: 25vw;
     padding:0.8vw 0;
-    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.2vw/1.2vw KozGoPr6N;
     color: #FFFFFF;
     margin: 1vw auto;
     display: block;
@@ -1529,11 +1514,11 @@ footer {
     border: 1px solid #707070;
     height: 2.8vw;
     padding:0.7vw 1vw;
-    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.2vw/1.2vw KozGoPr6N;
     color: #2D2A24;
 }
 .history_states span {
-    font: normal normal normal 0.8vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 0.8vw/1.2vw KozGoPr6N;
     color: #707070;
     margin-right: 1vw;
 }
@@ -1541,11 +1526,11 @@ footer {
     color: #FF0000;
     border: 1px solid #FF0000;
     padding:0.5vw 1vw;
-    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.3vw/1.3vw KozGoPr6N;
     height: 2.8vw;
 }
 .history_states_red span {
-    font: normal normal normal 1.1vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.3vw KozGoPr6N;
 }
 .history_flex {
     width: 100%;
@@ -1569,7 +1554,7 @@ footer {
     text-align: center;
     border: 1px solid #707070;
     border-radius: 3vw;
-    font: normal normal bold 1vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1vw/1.3vw KozGoPr6N;
     color: #2D2A24;
     margin-bottom: 0.5vw;
     display: block;
@@ -1613,7 +1598,7 @@ footer {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	overflow-y: scroll;
-    font: normal normal normal 1.4vw/1.4vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.4vw/1.4vw KozGoPr6N;
     color: #2D2A24;
     border: 1px solid #707070;
     overflow: hidden;
@@ -1625,7 +1610,7 @@ footer {
     margin-bottom: 2vw;
 }
 .popup_red {
-    font: normal normal normal 1vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.2vw KozGoPr6N;
     letter-spacing: 0px;
     color: #CC2424;
     margin-top: 0.5vw;
@@ -1642,13 +1627,13 @@ footer {
     text-align: left;
 }
 .popup_detail_name {
-    font: normal normal bold 1.2vw/1.2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.2vw/1.2vw KozGoPr6N;
     color: #000000;
     margin-bottom: 1vw;
     margin-top: 0.3vw;
 }
 .popup_detail_price {
-    font: normal normal normal 1.1vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.1vw/1.5vw KozGoPr6N;
     color: #000000;
 }
 .popup_btn_flex {
@@ -1723,11 +1708,11 @@ footer {
     }
     .footer_link_white {
         display: block;
-        font: normal normal normal 3vw/6vw Kozuka Gothic Pr6N;
+        font: normal normal normal 3vw/6vw KozGoPr6N;
     }
     .copyright {
         text-align: left;
-        font: normal normal normal 3vw/6vw Kozuka Gothic Pr6N;
+        font: normal normal normal 3vw/6vw KozGoPr6N;
         margin-top: 30px;
     }
     .header_logo {
@@ -1804,7 +1789,7 @@ footer {
         width: 100%;
         text-align: right;
         margin-top: 40px;
-        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        font: normal normal normal 14px/20px KozGoPr6N;
         letter-spacing: 3.64px;
         color: #242423;
     }
@@ -1839,7 +1824,7 @@ footer {
         display: block;
     }
     .top_ranking_a {
-        font: normal normal normal 11px/20px Kozuka Gothic Pr6N;
+        font: normal normal normal 11px/20px KozGoPr6N;
         letter-spacing: 1.1px;
     }
     .top_rank3 {
@@ -1869,7 +1854,7 @@ footer {
     }
     .top_news_a {
         display: block;
-        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        font: normal normal normal 14px/20px KozGoPr6N;
         letter-spacing: 1.4px;
         color: #FFFFFF;
         text-align: right;
@@ -1887,11 +1872,11 @@ footer {
     .top_news_content {
         width: 230px;
         padding-top: 5px;
-        font: normal normal bold 14px/20px Kozuka Gothic Pr6N;
+        font: normal normal bold 14px/20px KozGoPr6N;
         color: #000000;
     }
     .top_news_content span {
-        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        font: normal normal normal 14px/20px KozGoPr6N;
     }
 
 
@@ -1998,7 +1983,7 @@ footer {
     }
     .header_link {
         display: block;
-        font: normal normal normal 3vw/6vw Kozuka Gothic Pr6N;
+        font: normal normal normal 3vw/6vw KozGoPr6N;
         color: #000;
     }
     .header_flex_sp {
@@ -2011,12 +1996,272 @@ footer {
         width: 90px;
     }
     .copyright_header {
-        font: normal normal normal 10px/20px Kozuka Gothic Pr6N;
+        font: normal normal normal 10px/20px KozGoPr6N;
         letter-spacing: 0px;
         color: #242423;
         text-align: center;
     }
     
+    /* SP版 category */
+
+    .category_top {
+        width: 100%;
+        padding: 6.3vw 3.5vw;
+    }
+
+    .category_top h2 {
+        font: normal normal bold 7.24vw/6.77vw Arial;
+        letter-spacing: 0.72vw;
+        text-align: center;
+    }
+
+    .category_top select {
+        display: block;
+        margin-left: auto;
+        text-align: right;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font: normal normal normal 3.27vw/7.24vw KozGoPr6N;
+        color: #3169AA;
+    }
+
+    .category_item_a {
+        width: 33vw;
+        padding-bottom: 0;
+    }
+
+    .category_flex {
+        margin-bottom: 1vw;
+    }
+
+    .top3_item_name {
+        font: normal normal normal 2.8vw/4.6vw Arial;
+    }
+
+    /* SP版trouble */
+
+    .trouble_div {
+        padding: 0;
+        background: transparent linear-gradient(180deg, #F8F1EA 0%, #5B21218C 180%) 0% 0% no-repeat padding-box;
+    }
+
+    .trouble_title {
+        margin: 0;
+        padding: 8.57vw 0;
+    }
+
+    .trouble_title h2,h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .trouble_title h2 {
+        font: normal normal bold 7.24vw/6.77vw Arial;
+        letter-spacing: 0.72vw;
+        color: #000;
+        margin-bottom: 0.93vw;
+    }
+
+    .trouble_title h3 {
+        font: normal normal normal 3.27vw/4.24vw KozGoPr6N;
+        letter-spacing: 0;
+    }
+
+    .trouble_wrapper {
+        width: 100%;
+    }
+
+    .trouble_main_img {
+        width: 100%;
+    }
+
+    .trouble_list {
+        width: 100%;
+        padding: 0 10.39vw;
+    }
+
+    .trouble_list a {
+        font: normal normal normal 4.2vw KozGoPr6N;
+        letter-spacing: 1.09vw;
+        text-align: center;
+        border-bottom: 1px solid #503C3C;
+        margin-top: 8.57vw;
+        padding-bottom: 0.67vw;
+    }
+
+    .consultation {
+        margin: 28vw 0 5vw;
+        border-bottom: 17px solid #F8F1EA;
+    }
+
+    .consultation h2 {
+        font: normal normal normal 3.97vw/7vw KozGoPr6N;
+        text-align: center;
+        letter-spacing: 6.95px;
+        color: #3169AA;
+        opacity: 1;
+        margin-bottom: -2.8vw;
+    }
+
+    .trouble_text {
+        padding: 5vw 14vw;
+        font: normal normal normal 3.25vw KozMinPr6N;
+        letter-spacing: 0.18vw;
+        color: #242423;
+    }
+
+    .trouble_text p:last-child {
+        margin-bottom: 0;
+    }
+
+    .trouble_text span {
+        font-size: 3.73vw;
+    }
+
+    .trouble_text span.underline {
+        font-size: 4.67vw;
+        background-image: url("../img/underline.png");
+        background-size: 100% 40%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+      .trouble_link {
+        width: 100%;
+        padding: 9vw 0 17vw;
+    }
+
+    .trouble_link img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .trouble_link_logo {
+        width: 45vw;
+    }
+
+    .trouble_link_line {
+        width: 19vw;
+    }
+
+    .trouble_link h3 {
+        font: normal normal normal 3.5vw/3.97vw Arial;
+        color: #fff;
+        margin: 2.21vw 0 8.17vw;
+    }
+
+    /* SP版trouble_detail */
+
+    .trouble_detail_div {
+        padding: 0;
+        background: transparent linear-gradient(180deg, #F8F1EA 0%, #5B21218C 180%) 0% 0% no-repeat padding-box;
+    }
+
+    .trouble_detail_bread {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4vw 0;
+    }
+
+    .trouble_detail_bread h4 {
+        font: normal normal bold 3.73vw/3.5vw Arial;
+        letter-spacing: 0.37vw;
+        color: #242423;
+        margin-bottom: 0;
+    }
+
+    .trouble_detail_bread p {
+        font: normal normal normal 2.33vw/5.14vw KozGoPr6N;
+        letter-spacing: 0px;
+        color: #3169AA;
+        margin-bottom: 0;
+    }
+
+    .trouble_detail_title {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .trouble_detail_title h2 {
+        text-align: center;
+        font: normal normal normal 3.03vw KozGoPr6N;
+        color: #F5F8FC;
+        letter-spacing: 0.75vw;
+        background: #3169AA 0% 0% no-repeat padding-box;
+        border-radius: 23px;
+        display: block;
+        margin: auto;
+        padding: 1vw 0;
+    }
+
+    .trouble_detail_text {
+        font: normal normal normal 3.01vw KozGoPr6N;
+        margin: 6.24vw auto;
+    }
+
+    .trouble_detail_card {
+        width: 90%;
+        margin: 0 auto 3.17vw;
+        padding: 6.5vw 10vw;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+
+    .trouble_detail_card h3 {
+        font: normal normal normal 3.05vw/5.6vw KozGoPr6N;
+        letter-spacing: 0.45vw;
+        color: #FF8BAF;
+        text-align: left;
+    }
+
+    .trouble_detail_img {
+        width: 70%;
+        margin: 4.5vw auto;
+    }
+
+    .trouble_detail_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid #000;
+    }
+
+    .trouble_detail_item p {
+        font-size: 4.67vw;
+        margin: 0;
+    }
+
+    .trouble_detail_item p.itemname_bottom {
+        font-size: 3.27vw;
+    }
+
+    .trouble_item_text {
+        font: normal normal normal 3.03vw/4.43vw KozGoPr6N;
+        margin: 5.84vw 0 0 0;
+        padding: 0 1vw;
+    }
+
+    .trouble_item_text p {
+        margin: 0;
+    }
+
+    .trouble_detail_link {
+        width: 90%;
+        margin: 18.8vw auto 0;
+    }
+
+    .trouble_detail_link h3 {
+        font-size: 3.5vw;
+        color: #3169AA;
+        text-align: left;
+        text-decoration: underline;
+    }
+
+    .trouble_detail_link a {
+        font-size: 3.03vw;
+        margin-right: 5.37vw;
+    }
 }
 
 
