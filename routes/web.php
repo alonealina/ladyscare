@@ -19,7 +19,7 @@ Route::get('subsc_item_skip', 'App\Http\Controllers\NokotsudoController@subsc_it
 
 
 Route::get('member_regist', 'App\Http\Controllers\NokotsudoController@member_regist')->name('member_regist');
-Route::get('member_comp', 'App\Http\Controllers\NokotsudoController@member_comp')->name('member_comp');
+Route::post('member_comp', 'App\Http\Controllers\NokotsudoController@member_comp')->name('member_comp');
 
 
 Route::get('contact', 'App\Http\Controllers\NokotsudoController@contact')->name('contact');
