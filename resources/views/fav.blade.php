@@ -46,9 +46,93 @@
 
 @section('content_sp')
 
+<div class="page_title_sp">お気に入りリスト</div>
 
-
-
+<div class="top3_list">
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+</div>
+<div class="top3_list">
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+</div>
+<div class="top3_list">
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+</div>
+<div class="top3_list">
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+</div>
+<div class="top3_list">
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item1.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item2.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+    <a href="{{ route('item_detail') }}" class="top3_item_a">
+        <img src="{{ asset('img/item3.png') }}" class="top3_item_img">
+        <div class="top3_item_name">商品名</div>
+        <div class="top3_item_name">￥1,000</div>
+    </a>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/work.js') }}"></script>
