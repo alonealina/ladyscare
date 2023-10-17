@@ -2087,6 +2087,99 @@ footer {
         background: #707070 0% 0% no-repeat padding-box;
         color: #FFFFFF8C!important;
     }
+    .item_detail_flex {
+        padding: 4%;
+    }
+    .item_detail_img_list {
+        width: 20vw;
+    }
+    .item_detail_img_div {
+        width: 66vw;
+    }
+    .item_detail_sphere {
+        margin-top: 3vw;
+        margin-right: 3vw;
+        width: 15vw;
+        height: 15vw;
+    }
+    .item_detail_img_main {
+        top: -18vw;
+    }
+    .item_detail_content {
+        width: 92vw;
+        margin: -15vw auto 0;
+    }
+    .item_detail_ex {
+        padding-left: 0;
+        padding-top: 0;
+        font: normal normal bold 20px/20px Kozuka Gothic Pr6N;
+        margin-bottom: 20px;
+    }
+    .item_detail_text {
+        margin: 20px 0;
+        font: normal normal normal 14px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 1.4px;
+    }
+    .item_detail_tag {
+        font: normal normal normal 13px/17px Kozuka Gothic Pr6N;
+    }
+    .item_detail_fav {
+        width: 22px;
+        margin-right: 5px;
+    }
+    .item_detail_price_flex {
+        padding: 15px 5px;
+        font: normal normal bold 14px/30px Kozuka Gothic Pr6N;
+    }
+    .radio_orange {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .item_detail_price_div {
+        font: normal normal bold 17px/23px Kozuka Gothic Pr6N;
+        padding-left: 20px;
+    }
+    .item_detail_price_gray {
+        font: normal normal normal 15px/23px Kozuka Gothic Pr6N;
+    }
+    .price_off_span {
+        font: normal normal bold 16px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 1.6px;
+        color: #FF0000;
+        margin-left: 10px;
+    }
+    .price_detail_a {
+        font: normal normal normal 13px/27px Arial;
+        margin-left: 20px;
+    }
+    .input_number {
+        width: 70px;
+        text-align: center;
+        padding: 0;
+        border-radius: 0;
+        margin-top: 10px;
+        border: 1px solid #000;
+        height: 40px;
+        background: #F8F1EA 0% 0% no-repeat padding-box;
+    }
+    .select_month {
+        margin-top: 7px;
+        width: 70px;
+        padding: 0vw 0 0vw 1vw;
+        border: 1px solid #000;
+        height: 40px;
+        background: #F8F1EA 0% 0% no-repeat padding-box;
+    }
+    .tab_flex {
+        width: 92vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 30px auto 0;
+    }
+
+
+
 
 
 
