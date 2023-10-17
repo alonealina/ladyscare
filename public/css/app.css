@@ -1934,6 +1934,26 @@ footer {
         width: 325px;
         margin: 20px auto 70px;
     }
+    .form_flex {
+        width: 90vw;
+    }
+    .contact_div_short {
+        width: 43vw;
+    }
+    .check_flex {
+        width: 83vw;
+        margin: 5px auto 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    input[type=checkbox].checkbox_pink {
+        width: 20px;
+        height: 20px;
+    }
+    .check_text {
+        width: 76vw;
+        font: normal normal normal 12px/22px Kozuka Gothic Pr6N;
+    }
 
 
 
