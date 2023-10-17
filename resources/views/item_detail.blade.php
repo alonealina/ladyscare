@@ -380,76 +380,64 @@
     ※フランス、ベルサイユ＋グラースバラの胎座細胞を自然発酵させた、膣内でのエビデンスを持つ希少な成分です。<br>
     塗る＋ほぐすで骨盤内への血流と骨盤底を柔らかくし、良いホルモン＋良い粘液「ちゃんと自分を知り、愛しむためのケア」
 
-    <div class="detail_content_flex">
-        <div class="detail_content_title">ご使用方法</div>
-        <div class="detail_content_text">デリケートゾーンの気になる箇所に塗って使用します。</div>
-    </div>
-    <div class="detail_content_flex">
-        <div class="detail_content_title">原材料</div>
-        <div class="detail_content_text">植物性プラセンタエキス、ヒト幹細胞培養液、オリーブ果実油、ヒマワリ種子油、アルガニアスピノサ核油、ホホバ種子油、 マカデミア種子油、ダイズ油、ニンジン根エキス、ベルガモット果実油</div>
-    </div>
-    <div class="detail_content_flex">
-        <div class="detail_content_title">保存方法</div>
-        <div class="detail_content_text">高温多湿・直射日光を避けて保管してください。</div>
-    </div>
-    <div class="detail_content_flex">
-        <div class="detail_content_title">ご使用上の注意点</div>
-        <div class="detail_content_text">肌に異常が生じていないかよく注意して使用してください。お肌に合わないときはご使用をおやめください。 目に入らないようにしてください。</div>
-    </div>
-    <div class="detail_content_flex">
-        <div class="detail_content_title" style="width: 5vw;">ブランド</div>
-        <div class="" style="width: 10vw;">Care Female</div>
-        <div class="detail_content_title" style="width: 4vw;">販売元</div>
-        <div class="" style="width: 22vw;">株式会社Leep<br>〒107-0062 東京都港区南青山3-8-40</div>
-        <div class="detail_content_title" style="width: 4vw;">製造国</div>
-        <div class="">日本</div>
-    </div>
+    <div class="detail_content_title">ご使用方法</div>
+    <div class="detail_content_text">デリケートゾーンの気になる箇所に塗って使用します。</div>
+    <div class="detail_content_title">原材料</div>
+    <div class="detail_content_text">植物性プラセンタエキス、ヒト幹細胞培養液、オリーブ果実油、ヒマワリ種子油、アルガニアスピノサ核油、ホホバ種子油、 マカデミア種子油、ダイズ油、ニンジン根エキス、ベルガモット果実油</div>
+    <div class="detail_content_title">保存方法</div>
+    <div class="detail_content_text">高温多湿・直射日光を避けて保管してください。</div>
+    <div class="detail_content_title">ご使用上の注意点</div>
+    <div class="detail_content_text">肌に異常が生じていないかよく注意して使用してください。お肌に合わないときはご使用をおやめください。 目に入らないようにしてください。</div>
+    <div class="detail_content_title">ブランド</div>
+    <div class="detail_content_text" >Care Female</div>
+    <div class="detail_content_title">販売元</div>
+    <div class="detail_content_text" >株式会社Leep<br>〒107-0062 東京都港区南青山3-8-40</div>
+    <div class="detail_content_title">製造国</div>
+    <div class="detail_content_text">日本</div>
 </div>
-<div class="review_content" style="display:none;">
 
-    <div class="review_flex">
-        <div class="review_box">
-            <div class="review_box_title">商品満足度</div>
-            <div class="review_5star">★★★★☆</div>
-            <div class="review_5">4/5</div>
+<div class="review_content" style="display:none;">
+    <div class="review_box">
+        <div class="review_box_title">商品満足度</div>
+        <div class="review_5star">★★★★☆</div>
+        <div class="review_5">4/5</div>
+    </div>
+    <div class="review_box">
+        <div class="review_box_title">採点分析</div>
+        <div class="review_bar_flex">
+            <div class="review_bar_star">★5</div>
+            <div class="review_bar">
+                <div class="review_bar_orange" style="width: 60%;"></div>
+            </div>
+            <div class="review_bar_per">60%</div>
         </div>
-        <div class="review_box">
-            <div class="review_box_title">採点分析</div>
-            <div class="review_bar_flex">
-                <div class="review_bar_star">★5</div>
-                <div class="review_bar">
-                    <div class="review_bar_orange" style="width: 60%;"></div>
-                </div>
-                <div class="review_bar_per">60%</div>
+        <div class="review_bar_flex">
+            <div class="review_bar_star">★4</div>
+            <div class="review_bar">
+                <div class="review_bar_orange" style="width: 28%;"></div>
             </div>
-            <div class="review_bar_flex">
-                <div class="review_bar_star">★4</div>
-                <div class="review_bar">
-                    <div class="review_bar_orange" style="width: 28%;"></div>
-                </div>
-                <div class="review_bar_per">28%</div>
+            <div class="review_bar_per">28%</div>
+        </div>
+        <div class="review_bar_flex">
+            <div class="review_bar_star">★3</div>
+            <div class="review_bar">
+                <div class="review_bar_orange" style="width: 11%;"></div>
             </div>
-            <div class="review_bar_flex">
-                <div class="review_bar_star">★3</div>
-                <div class="review_bar">
-                    <div class="review_bar_orange" style="width: 11%;"></div>
-                </div>
-                <div class="review_bar_per">11%</div>
+            <div class="review_bar_per">11%</div>
+        </div>
+        <div class="review_bar_flex">
+            <div class="review_bar_star">★2</div>
+            <div class="review_bar">
+                <div class="review_bar_orange" style="width: 1%;"></div>
             </div>
-            <div class="review_bar_flex">
-                <div class="review_bar_star">★2</div>
-                <div class="review_bar">
-                    <div class="review_bar_orange" style="width: 1%;"></div>
-                </div>
-                <div class="review_bar_per">1%</div>
+            <div class="review_bar_per">1%</div>
+        </div>
+        <div class="review_bar_flex">
+            <div class="review_bar_star">★1</div>
+            <div class="review_bar">
+                <div class="review_bar_orange" style="width: 0%;"></div>
             </div>
-            <div class="review_bar_flex">
-                <div class="review_bar_star">★1</div>
-                <div class="review_bar">
-                    <div class="review_bar_orange" style="width: 0%;"></div>
-                </div>
-                <div class="review_bar_per">0%</div>
-            </div>
+            <div class="review_bar_per">0%</div>
         </div>
     </div>
     <div class="qa_gray_line"></div>
@@ -478,7 +466,6 @@
     <div class="review_name">acountname｜2023.00.00</div>
     <div class="review_text">気に入っていてこればかり何度もリピートしてます。無香で洗いやすく刺激もないです。</div>
     <div class="qa_gray_line"></div>
-
 </div>
 
 <div class="qa_content" style="display:none;">
@@ -486,35 +473,16 @@
         <div class="qa_flex_s">状況</div>
         <div class="qa_flex_l">お問い合わせ/回答</div>
         <div class="qa_flex_s">日付</div>
-        <div class="qa_flex_s">投稿者</div>
     </div>
     <div class="qa_flex">
         <div class="qa_states qa_gray">回答待ち</div>
         <div class="qa_flex_text">とても良い商品で大変気にいってます！<br>効果的な使用頻度を教えていただきたいです。現在毎日使用していますが、毎日使用すると肌に負担がありますか?</div>
-        <div class="qa_flex_s_gray">2023.00.00</div>
-        <div class="qa_flex_s_gray">acountname</div>
+        <div class="qa_flex_s_gray">2023.<br>00.00</div>
     </div>
-    <div class="qa_gray_line"></div>
-
-    <div class="qa_flex">
-        <div class="qa_states qa_orange">回答済み</div>
-        <div class="qa_flex_text">とても良い商品で大変気にいってます！<br>効果的な使用頻度を教えていただきたいです。現在毎日使用していますが、毎日使用すると肌に負担がありますか?</div>
-        <div class="qa_flex_s_gray">2023.00.00</div>
-        <div class="qa_flex_s_gray">acountname</div>
-    </div>
-
     <div class="qa_flex">
         <div class="qa_flex_s"></div>
-        <div class="qa_answer">
-            愛するお客様、<br>
-            健康な膣ケアのためにこの商品をお選びいただき、誠にありがとうございます。<br>
-            毎朝夕方使えるように作りました。毎日使っていただいて結構です！<br><br>
-            1. 全成分自然由来成分で作りました (bha 0.5%を除く)<br>
-            2. 弱酸性pH5.5製品なので肌のバリアを崩しません<br>
-            3. まろやかな成分で作ったにもかかわらず、効果が良い理由は製品に水一滴も入れずに有効成分で満たされているからです。<br>
-            4. 角質ケアに効果的なエンザイムパウダーウォッシュにフランス産クレイを100,000ppm入れて、毎日洗顔するたびにクレイパックできる効果があります。<br><br>
-            気になることに対する回答になればと思います。 また会いましょう。
-        </div>
+        <div class="qa_flex_l">投稿者<br><span style="color:#5D43438C;">acountname</span></div>
+        <div class="qa_flex_s"></div>
     </div>
 
     <div class="qa_gray_line"></div>
@@ -522,28 +490,52 @@
     <div class="qa_flex">
         <div class="qa_states qa_orange">回答済み</div>
         <div class="qa_flex_text">とても良い商品で大変気にいってます！<br>効果的な使用頻度を教えていただきたいです。現在毎日使用していますが、毎日使用すると肌に負担がありますか?</div>
-        <div class="qa_flex_s_gray">2023.00.00</div>
-        <div class="qa_flex_s_gray">acountname</div>
+        <div class="qa_flex_s_gray">2023.<br>00.00</div>
     </div>
-
     <div class="qa_flex">
         <div class="qa_flex_s"></div>
-        <div class="qa_answer">
-            愛するお客様、<br>
-            健康な膣ケアのためにこの商品をお選びいただき、誠にありがとうございます。<br>
-            毎朝夕方使えるように作りました。毎日使っていただいて結構です！<br><br>
-            1. 全成分自然由来成分で作りました (bha 0.5%を除く)<br>
-            2. 弱酸性pH5.5製品なので肌のバリアを崩しません<br>
-            3. まろやかな成分で作ったにもかかわらず、効果が良い理由は製品に水一滴も入れずに有効成分で満たされているからです。<br>
-            4. 角質ケアに効果的なエンザイムパウダーウォッシュにフランス産クレイを100,000ppm入れて、毎日洗顔するたびにクレイパックできる効果があります。<br><br>
-            気になることに対する回答になればと思います。 また会いましょう。
-        </div>
+        <div class="qa_flex_l">投稿者<br><span style="color:#5D43438C;">acountname</span></div>
+        <div class="qa_flex_s"></div>
+    </div>
+
+    <div class="qa_answer">
+        愛するお客様、<br>
+        健康な膣ケアのためにこの商品をお選びいただき、誠にありがとうございます。<br>
+        毎朝夕方使えるように作りました。毎日使っていただいて結構です！<br><br>
+        1. 全成分自然由来成分で作りました (bha 0.5%を除く)<br>
+        2. 弱酸性pH5.5製品なので肌のバリアを崩しません<br>
+        3. まろやかな成分で作ったにもかかわらず、効果が良い理由は製品に水一滴も入れずに有効成分で満たされているからです。<br>
+        4. 角質ケアに効果的なエンザイムパウダーウォッシュにフランス産クレイを100,000ppm入れて、毎日洗顔するたびにクレイパックできる効果があります。<br><br>
+        気になることに対する回答になればと思います。 また会いましょう。
     </div>
 
 
+    <div class="qa_gray_line"></div>
+
+    <div class="qa_flex">
+        <div class="qa_states qa_orange">回答済み</div>
+        <div class="qa_flex_text">とても良い商品で大変気にいってます！<br>効果的な使用頻度を教えていただきたいです。現在毎日使用していますが、毎日使用すると肌に負担がありますか?</div>
+        <div class="qa_flex_s_gray">2023.<br>00.00</div>
+    </div>
+    <div class="qa_flex">
+        <div class="qa_flex_s"></div>
+        <div class="qa_flex_l">投稿者<br><span style="color:#5D43438C;">acountname</span></div>
+        <div class="qa_flex_s"></div>
+    </div>
+
+    <div class="qa_answer">
+        愛するお客様、<br>
+        健康な膣ケアのためにこの商品をお選びいただき、誠にありがとうございます。<br>
+        毎朝夕方使えるように作りました。毎日使っていただいて結構です！<br><br>
+        1. 全成分自然由来成分で作りました (bha 0.5%を除く)<br>
+        2. 弱酸性pH5.5製品なので肌のバリアを崩しません<br>
+        3. まろやかな成分で作ったにもかかわらず、効果が良い理由は製品に水一滴も入れずに有効成分で満たされているからです。<br>
+        4. 角質ケアに効果的なエンザイムパウダーウォッシュにフランス産クレイを100,000ppm入れて、毎日洗顔するたびにクレイパックできる効果があります。<br><br>
+        気になることに対する回答になればと思います。 また会いましょう。
+    </div>
 </div>
 
-
+<div class="contact_bottom_padding"></div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/item_detail.js') }}"></script>
