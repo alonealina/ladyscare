@@ -2319,11 +2319,72 @@ footer {
         letter-spacing: 0.1vw;
         color: #FFFFFF;
     }
-
-
-
-
-    
+    .history_before_content, .history_after_content {
+        padding: 30px 12px;
+        width: 92vw;
+        margin: auto;
+    }
+    .history_quantity {
+        font: normal normal normal 16px/34px Arial;
+        letter-spacing: 3.14px;
+    }
+    .history_states_red {
+        color: #FF0000;
+        border: 1px solid #FF0000;
+        padding: 5px 10px;
+        font: normal normal normal 14px/17px KozGoPr6N;
+        display: inline;
+    }
+    .history_states_red span {
+        font: normal normal normal 11px/17px KozGoPr6N;
+    }
+    .history_bar_img {
+        width: 280px;
+        display: block;
+        margin: 30px auto;
+    }
+    .item_detail_img_sp {
+        width: 100px;
+        margin-right: 15px;
+    }
+    .history_flex_btn_list {
+        padding-top: 40px;
+        margin-left: -30vw;
+    }
+    .history_flex_btn {
+        padding: 10px 0;
+        text-align: center;
+        border: 1px solid #707070;
+        border-radius: 20px;
+        font: normal normal bold 10px/10px KozGoPr6N;
+        color: #2D2A24;
+        margin-bottom: 10px;
+        display: block;
+        width: 90px;
+    }
+    .history_line {
+        height: 1px;
+        margin: 20px 0;
+    }
+    .history_states {
+        padding: 5px 10px;
+        font: normal normal normal 14px/17px KozGoPr6N;
+        display: inline;
+    }
+    .history_states span {
+        font: normal normal normal 10px/13px KozGoPr6N;
+        color: #707070;
+        margin-right: 11px;
+    }
+    .history_flex_review_list {
+        padding-top: 40px;
+        margin-left: -30vw;
+    }
+    .history_review_img {
+        display: block;
+        width: 90px;
+        margin-bottom: 0.5vw;
+    }
 
 
     /* ハンバーガーメニュー */
