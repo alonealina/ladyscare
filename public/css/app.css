@@ -2985,6 +2985,8 @@ footer {
         width: 15vw;
     }
 
+    /* SP版ranking */
+
     .ranking_wrapper {
         width: 100%;
         margin-bottom: 5vw;
@@ -3046,6 +3048,33 @@ footer {
         position: absolute;
         width: 10vw;
         top: -6vw;
+    }
+
+    .accordion {
+        margin-bottom: 23.36vw;
+    }
+
+    /* SP用アコーディオン */
+    .accordion-content {
+        display: none;
+    }
+    
+    .accordion-item .active .accordion-content {
+        display: block;
+    }
+
+    .accordion-item {
+        background-color: #FFF;
+        background-image: url("../img/push_down.svg");
+        background-repeat: no-repeat;
+        background-position: 90vw 5vw;
+        margin-bottom: 10px;
+        padding: 2vw 0;
+    }
+
+    .accordion-header {
+        font-size: 4.67vw;
+        text-align: center;
     }
 }
 

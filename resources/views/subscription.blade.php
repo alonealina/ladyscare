@@ -113,7 +113,40 @@
 
 <div class="subsc_title">よくあるご質問</div>
 
+<div class="accordion">
+    <div class="accordion-item">
+        <div class="accordion-header">注文について</div>
+        <div class="accordion-content">
+            コンテンツ
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">支払いについて</div>
+        <div class="accordion-content">
+            コンテンツ
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">発送について</div>
+        <div class="accordion-content">
+            コンテンツ
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">スキップについて</div>
+        <div class="accordion-content">
+            コンテンツ
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-header">解約について</div>
+        <div class="accordion-content">
+            コンテンツ
+        </div>
+    </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="{{ asset('js/index.js') }}"></script>
+<script src="{{ asset('js/index_sp.js') }}"></script>
 @endsection
