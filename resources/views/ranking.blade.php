@@ -113,12 +113,100 @@
 
 @section('content_sp')
 
-
-
-
+<div class="ranking_wrapper">
+    <h2>RANKING</h2>
+    <div class="trouble_detail_card ranking_item">
+        <img src="{{ asset('img/rank1_sp.svg') }}" class="ranknum_img_top3">
+        <h3>韓国での信頼度No.1<br>デリケートゾーンのオールインワンクリーム</h3>
+        <img src="{{ asset('img/item5.png') }}" class="trouble_detail_img">
+        <div class="trouble_detail_item">
+            <div class="trouble_detail_itemname">
+                <p>商品名</p>
+                <p class="itemname_bottom">Product Name</p>
+            </div>
+            <p>￥1,000</p>
+        </div>
+        <div class="trouble_item_text">
+            <p>商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文</p>
+        </div>
+    </div>
+    <div class="trouble_detail_card ranking_item">
+        <img src="{{ asset('img/rank2_sp.svg') }}" class="ranknum_img_top3">
+        <h3>韓国での信頼度No.1<br>デリケートゾーンのオールインワンクリーム</h3>
+        <img src="{{ asset('img/item5.png') }}" class="trouble_detail_img">
+        <div class="trouble_detail_item">
+            <div class="trouble_detail_itemname">
+                <p>商品名</p>
+                <p class="itemname_bottom">Product Name</p>
+            </div>
+            <p>￥1,000</p>
+        </div>
+        <div class="trouble_item_text">
+            <p>商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文</p>
+        </div>
+    </div>
+    <div class="trouble_detail_card ranking_item">
+        <img src="{{ asset('img/rank3_sp.svg') }}" class="ranknum_img_top3">
+        <h3>韓国での信頼度No.1<br>デリケートゾーンのオールインワンクリーム</h3>
+        <img src="{{ asset('img/item5.png') }}" class="trouble_detail_img">
+        <div class="trouble_detail_item">
+            <div class="trouble_detail_itemname">
+                <p>商品名</p>
+                <p class="itemname_bottom">Product Name</p>
+            </div>
+            <p>￥1,000</p>
+        </div>
+        <div class="trouble_item_text">
+            <p>商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文商品紹介文</p>
+        </div>
+    </div>
+    <div class="ranking_wrapper_2row">
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank4.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank5.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank6.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank7.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank8.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank9.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+        <a href="{{ route('item_detail') }}" class="pickup_item">
+            <img src="{{ asset('img/rank10.png') }}" class="runknum_img">
+            <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+            <p>商品名</p>
+            <p>￥1,000</p>
+        </a>
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/work.js') }}"></script>
-
 
 @endsection

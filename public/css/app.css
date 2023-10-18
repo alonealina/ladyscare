@@ -2860,7 +2860,7 @@ footer {
 
     /* SP版pickup */
     .pickup_div {
-        padding: 10vw 0;
+        padding: 7vw 0 10vw;
     }
 
     .pickup_div h2 {
@@ -2919,6 +2919,68 @@ footer {
         width: 15vw;
     }
 
+    .ranking_wrapper {
+        width: 100%;
+        margin-bottom: 5vw;
+        padding: 7vw 0;
+    }
+
+    .ranking_wrapper h2 {
+        font: normal normal bold 7vw/7vw Arial;
+        letter-spacing: 0.7vw;
+        color: #242423;
+        text-align: center;
+    }
+
+    .ranking_item {
+        position: relative;
+        margin-top: 20.59vw;
+    }
+
+    .ranknum_img_top3 {
+        width: 32vw;
+        position: absolute;
+        top: -7.5vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ranking_wrapper_2row {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 17.73vw auto 0;
+    }
+
+    .ranking_wrapper_2row a {
+        width: 49%;
+        position: relative;
+        margin-bottom: 13.24vw;
+        padding-bottom: 2vw;
+    }
+
+    .ranking_wrapper_2row a:last-child {
+        margin-bottom: 0;
+    }
+
+    .ranking_wrapper_2row img {
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+
+    .ranking_wrapper_2row p {
+        font-size: 3.73vw;
+        color: #000;
+        margin-bottom: 0;
+        padding-left: 3vw;
+    }
+
+    img.runknum_img {
+        position: absolute;
+        width: 10vw;
+        top: -6vw;
+    }
 }
 
 
