@@ -232,27 +232,192 @@
 
 
 @section('content_sp')
-<div class="contact_div_sp">
-    <form name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
-    @csrf
-        <div class="page_title_sp">CONTACT</div>
 
-        <div class="contact_name">Name</div>
-        <input class="form_text_sp" placeholder="" name="name" type="text" id="name">
+<div class="pickup_div">
+    <h2>PICK UP</h2>
 
-        <div class="contact_name">Phone number</div>
-        <input class="form_text_sp" placeholder="" name="tel" type="text" id="tel">
-
-        <div class="contact_name">E-mail</div>
-        <input class="form_text_sp" placeholder="" name="mail" type="text" id="mail">
-
-        <div class="contact_name">Messsge</div>
-        <textarea class="form_textarea_sp" name="content" id="content"></textarea>
-        <div class="error_message_sp" id="error_message"></div>
-        <div class="send_button" style="margin-top:20px;">
-            <a href="#" onclick="clickMailButton()" style="margin:auto;">SEND</a>
+    <div class="pickup_slider_wrapper">
+        <h3>#お気に入り登録多数の人気アイテム</h3>
+        <div class="pickup_slider">
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
         </div>
-    </form>
+        <img src="{{ asset('img/scroll_icon.svg') }}" class="scroll_img">
+    </div>
+    <div class="pickup_slider_wrapper">
+        <h3>#お気に入り登録多数の人気アイテム</h3>
+        <div class="pickup_slider">
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+        </div>
+        <img src="{{ asset('img/scroll_icon.svg') }}" class="scroll_img">
+    </div>
+    <div class="pickup_slider_wrapper">
+        <h3>#冬おすすめの保湿ケア</h3>
+        <div class="pickup_slider">
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+        </div>
+        <img src="{{ asset('img/scroll_icon.svg') }}" class="scroll_img">
+    </div>
+    <div class="pickup_slider_wrapper">
+        <h3>#気になるニオイや黒ずみを徹底ケアできる！<br>美白効果プラスのデリケートケア</h3>
+        <div class="pickup_slider">
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+        </div>
+        <img src="{{ asset('img/scroll_icon.svg') }}" class="scroll_img">
+    </div>
+    <div class="pickup_slider_wrapper">
+        <h3>#今あるお悩みをきっと解決してくれる敏感肌や<br>こだわりたい方にお勧めのオーガニック商品</h3>
+        <div class="pickup_slider">
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item1.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item2.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+            <a href="{{ route('item_detail') }}" class="pickup_item">
+                <img src="{{ asset('img/item3.png') }}" class="pickup_item_img">
+                <p>商品名</p>
+                <p>￥1,000</p>
+            </a>
+        </div>
+        <img src="{{ asset('img/scroll_icon.svg') }}" class="scroll_img">
+    </div>
+
+
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/contact.js') }}"></script>

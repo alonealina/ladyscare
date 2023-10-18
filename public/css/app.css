@@ -2857,7 +2857,71 @@ footer {
         font-size: 3.03vw;
         margin-right: 5.37vw;
     }
+
+    /* SP版pickup */
+    .pickup_div {
+        padding: 10vw 0;
+    }
+
+    .pickup_div h2 {
+        font: normal normal bold 7.24vw/6.77vw Arial;
+        letter-spacing: 0.72vw;
+        color: #338F86;
+        text-align: center;
+        margin-bottom: -5vw;
+    }
+
+    .pickup_slider_wrapper {
+        width: 100%;
+        position: relative;
+    }
+
+    .pickup_slider_wrapper h3 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        color: #338F86;
+        text-align: center;
+        margin: 20vw 0 10vw;
+    }
+
+    .pickup_slider {
+        display: flex;
+        overflow-x: scroll;
+        white-space: nowrap; 
+    }
+
+    .pickup_slider a {
+        font-size: 2.8vw;
+        color: #000;
+        text-decoration: none;
+        margin: 0.5vw 0;
+        padding-bottom: 1vw;
+    }
+
+    .pickup_item {
+        width: 33.33%;
+        background-color: #fff;
+    }
+
+    .pickup_slider img {
+        width: 33.33vw;
+    }
+
+    .pickup_slider p {
+        margin: 1vw 0;
+        padding-left: 3vw;
+    }
+
+    .scroll_img {
+        position: absolute;
+        right: 0;
+        bottom: 14vw;
+        width: 15vw;
+    }
+
 }
+
+
 
 
 .g-recaptcha {
