@@ -2471,9 +2471,75 @@ footer {
         font: normal normal normal 17px/21px Kozuka Gothic Pr6N;
         margin: 20px auto;
     }
+    .subsc_title {
+        font: normal normal 600 18px/28px Segoe UI;
+        margin: 30px 0;
+    }
+    .subsc_flex {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+        margin: 25px auto;
+    }
+    .subsc_no {
+        width: 40px;
+        height: 40px;
+        margin-top: 0;
+    }
+    .subsc_text {
+        font: normal normal normal 14px/20px Segoe UI;
+        width: 280px;
+        margin-top: 0;
+    }
+    .subsc_img {
+        width: 330px;
+        margin: auto;
+        display: block;
+    }
+    .subsc_flex span {
+        font: normal normal normal 12px/18px Segoe UI;
+    }
+    .subsc_blue {
+        font: normal normal normal 12px/18px Segoe UI;
+        color: #3169AA;
+        margin: 30px auto 50px;
+        width: 340px;
+    }
+    .subsc_box {
+        border: 2px solid #3169AA;
+        width: 95vw;
+        padding: 10px 10px 50px;
+        font: normal normal normal 1.3vw/2vw Segoe UI;
+        color: #2D2A24;
+        margin: 3vw auto;
+    }
+    .subsc_box_title {
+        font: normal normal 600 22px/30px Segoe UI;
+    }
+    .subsc_box_sub {
+        font: normal normal normal 15px/20px Segoe UI;
+    }
+    .subsc_box_blue {
+        font: normal normal 600 17px/27px Segoe UI;
+        width: 100%;
+        padding: 0 0;
+        height: auto;
+        margin: 30px auto;
+    }
+    .subsc_box_text span {
+        color: #2D2A24;
+        font: normal normal normal 10px/17px Segoe UI;
+        margin-left: 15px;
+    }
+    .subsc_box_text {
+        width: 100%;
+        padding-left: 13px;
+        font: normal normal normal 12px/20px Segoe UI;
+    }
 
 
-    
+
+
 
     /* ハンバーガーメニュー */
     .hamburger-menu {
