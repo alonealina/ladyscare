@@ -2473,7 +2473,7 @@ footer {
     }
     .subsc_title {
         font: normal normal 600 18px/28px Segoe UI;
-        margin: 30px 0;
+        margin: 30px 0 10px;
     }
     .subsc_flex {
         width: 340px;
