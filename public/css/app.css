@@ -1656,8 +1656,49 @@ footer {
     text-align: center;
 }
 
+.accordion {
+    width: 80vw;
+    margin: 0 auto 10vw;
+}
 
+/* SP用アコーディオン */
+.accordion-content {
+    display: none;
+    padding: 2vw 5vw;
+}
 
+.accordion-item .active .accordion-content {
+    display: block;
+}
+
+.accordion-item {
+    background-color: #FFF;
+    background-image: url("../img/push_down.svg");
+    background-repeat: no-repeat;
+    background-position: 76vw 2vw;
+    margin-bottom: 1vw;
+    padding: 0.8vw 0;
+}
+
+.accordion-header {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.cart_count {
+    width: 1.2vw;
+    height: 1.2vw;
+    background: #3169AA 0% 0% no-repeat padding-box;
+    font: normal normal normal 0.7vw/1.2vw Hiragino Kaku Gothic Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    position: fixed;
+    top: 1.7vw;
+    right: 5.6vw;
+    text-align: center;
+    z-index: 9000;
+}
 
 
 
@@ -3075,6 +3116,21 @@ footer {
     .accordion-header {
         font-size: 4.67vw;
         text-align: center;
+    }
+
+    .cart_count {
+        width: 15px;
+        height: 15px;
+        background: #3169AA 0% 0% no-repeat padding-box;
+        font: normal normal normal 10px/15px Hiragino Kaku Gothic Pro;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        border-radius: 50px;
+        position: fixed;
+        top: 10px;
+        right: 116px;
+        text-align: center;
+        z-index: 9000;
     }
 }
 

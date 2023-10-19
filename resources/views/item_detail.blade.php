@@ -59,7 +59,7 @@
             <div class="item_detail_price_flex">
                 <div class="">
                     <input type="radio" class="radio_orange" name="type" value="定期購入">定期購入 <span class="price_off_span">00%off</span>
-                    <a href="" class="price_detail_a">定期購入について詳しく見る</a>
+                    <a href="{{ route('subscription') }}" class="price_detail_a" target="_blank">定期購入について詳しく見る</a>
                     <div class="item_detail_price_div">
                         1,800円<span style="font-size:1.5vw;">(税別)</span>　<span class="item_detail_price_gray">+ 送料500円</span>
                     </div>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="item_detail_btn_flex">
-                <a href="#!" class="item_detail_btn">カートに入れる</a>
+                <a href="#!" class="item_detail_btn" onclick="clickCart()">カートに入れる</a>
                 <a href="{{ route('item_buy_normal') }}" class="item_detail_btn">購入手続きへ</a>
             </div>
 
@@ -268,12 +268,9 @@
 
     </div>
 
-
-
-
-
-
 </div>
+
+<div class="cart_count" id="cart_count" hidden>1</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/item_detail.js') }}"></script>
@@ -342,7 +339,7 @@
             <div class="item_detail_price_div">
                 1,800円(税別)<span class="item_detail_price_gray">+送料500円</span>
             </div>
-            <a href="" class="price_detail_a">定期購入について詳しく見る</a>
+            <a href="{{ route('subscription') }}" class="price_detail_a" target="_blank">定期購入について詳しく見る</a>
         </div>
         <div class="">
             <div>　数量<input type="number" class="input_number" name="example1" value="1" style="margin-top: -0.5vw; margin-left: 3px;"></div>
@@ -362,7 +359,7 @@
     </div>
 
     <a href="{{ route('item_buy_normal') }}" class="send_btn send_btn_white" style="margin:20px auto;">購入手続きへ</a>
-    <a href="#!" class="send_btn" style="margin:20px auto;">カートに入れる</a>
+    <a href="#!" class="send_btn" style="margin:20px auto;" onclick="clickCart()">カートに入れる</a>
 
 </div>
 
@@ -534,6 +531,8 @@
         気になることに対する回答になればと思います。 また会いましょう。
     </div>
 </div>
+
+<div class="cart_count" id="cart_count" hidden>1</div>
 
 <div class="contact_bottom_padding"></div>
 

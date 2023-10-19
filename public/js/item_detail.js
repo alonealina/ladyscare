@@ -1,3 +1,5 @@
+var cart_count = document.getElementById('cart_count');
+
 function clickDetail() {
     $('#detail').addClass('item_current');
     $('#review').removeClass('item_current');
@@ -23,4 +25,9 @@ function clickQa() {
     $('.detail_content').hide();
     $('.review_content').hide();
     $('.qa_content').show();
+}
+
+// カート関連
+function clickCart() {
+    cart_count.hidden = false;
 }
