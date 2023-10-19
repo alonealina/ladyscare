@@ -53,3 +53,4 @@ Route::get('history', 'App\Http\Controllers\NokotsudoController@history')->name(
 Route::get('address_change', 'App\Http\Controllers\NokotsudoController@address_change')->name('address_change');
 
 Route::get('mypage', 'App\Http\Controllers\NokotsudoController@mypage')->name('mypage');
+Route::get('address_change_mypage', 'App\Http\Controllers\NokotsudoController@address_change_mypage')->name('address_change_mypage');

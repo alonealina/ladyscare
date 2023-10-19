@@ -219,8 +219,9 @@ class NokotsudoController extends Controller
         return view('mypage');
     }
     
-
-    
-    
+    public function address_change_mypage()
+    {
+        return view('address_change_mypage');
+    }
     
 }

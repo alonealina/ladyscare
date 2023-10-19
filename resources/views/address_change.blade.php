@@ -58,8 +58,8 @@
 
         <div style="width: 40vw; margin: auto;">会員情報に反映しますか？</div>
         <div class="buy_btn_flex" style="width: 40vw; margin: 1vw auto;">
-            <a href="{{ route('history') }}" class="buy_btn_white" style="padding: 1.25vw; margin: 1vw auto; width:19vw;">反映しないで確定</span></a>
-            <a href="{{ route('history') }}" class="buy_btn_black" style="padding: 1.25vw; margin: 1vw auto; width:19vw;">反映して確定</a>
+            <a href="{{ route('history') }}" class="buy_btn_white" style="padding: 1.25vw; margin: 1vw auto; width:19vw;">反映しない</span></a>
+            <a href="{{ route('history') }}" class="buy_btn_black" style="padding: 1.25vw; margin: 1vw auto; width:19vw;">反映する</a>
         </div>
 
         <div class="error_message" id="error_message"></div>
@@ -125,8 +125,8 @@
     </div>
 
     <div style="font-size: 12px; margin-top: 40px; text-align:center;">会員情報に反映しますか？</div>
-    <a href="{{ route('history') }}" class="send_btn send_btn_white" style="margin:10px auto 20px;">反映しないで確定</a>
-    <a href="{{ route('history') }}" class="send_btn" style="margin:20px auto;">反映して確定</a>
+    <a href="{{ route('history') }}" class="send_btn send_btn_white" style="margin:10px auto 20px;">反映しない</a>
+    <a href="{{ route('history') }}" class="send_btn" style="margin:20px auto;">反映する</a>
 </form>
 <div class="contact_bottom_padding"></div>
 

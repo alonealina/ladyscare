@@ -16,19 +16,15 @@
     105-0011, 東京都, 港区芝公園<br>
     +81 0334335111<br>
     example@info.com
-    <a href="#!" class="mypage_edit_a">変更</a>
+    <a href="{{ route('address_change_mypage') }}" class="mypage_edit_a">変更</a>
 
     <div class="gray_line"></div>
 
     お支払い方法<br><br>選択した方法が表示されます
 
-    <a href="#!" class="mypage_edit_a">変更</a>
-
     <div class="gray_line"></div>
 
     配送方法<br><br>日本郵便
-
-    <a href="#!" class="mypage_edit_a">変更</a>
 
     <div class="gray_line"></div>
 
@@ -62,19 +58,15 @@
     105-0011, 東京都, 港区芝公園<br>
     +81 0334335111<br>
     example@info.com
-    <a href="#!" class="mypage_edit_a">変更</a>
+    <a href="{{ route('address_change_mypage') }}" class="mypage_edit_a">変更</a>
 
     <div class="gray_line"></div>
 
     お支払い方法<br><br>選択した方法が表示されます
 
-    <a href="#!" class="mypage_edit_a">変更</a>
-
     <div class="gray_line"></div>
 
     配送方法<br><br>日本郵便
-
-    <a href="#!" class="mypage_edit_a">変更</a>
 
     <div class="gray_line"></div>
 

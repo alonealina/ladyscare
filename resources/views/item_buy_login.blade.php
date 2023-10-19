@@ -25,7 +25,7 @@
         </div>
         <div class="buy_btn_flex">
             <a href="{{ route('paymethod_select') }}" class="buy_btn_black">ご登録の住所に配送<br><span style="font-size:1.1vw;">(お支払方法選択へ)</span></a>
-            <a href="{{ route('member_edit') }}" class="buy_btn_white">未登録の住所に配送<br><span style="font-size:1.1vw;">(配送先入力へ)</span></a>
+            <a href="{{ route('not_member_form') }}" class="buy_btn_white">未登録の住所に配送<br><span style="font-size:1.1vw;">(配送先入力へ)</span></a>
         </div>
 
 
@@ -62,7 +62,7 @@
 </div>
 
 <a href="{{ route('paymethod_select') }}" class="send_btn send_btn_white send_btn_login" style="margin:20px auto;">ご登録の住所に配送<br><span style="font-size:11px;">(お支払方法選択へ)</span></a>
-<a href="{{ route('member_edit') }}" class="send_btn send_btn_login" style="margin:20px auto;">未登録の住所に配送<br><span style="font-size:11px;">(配送先入力へ)</span></a>
+<a href="{{ route('not_member_form') }}" class="send_btn send_btn_login" style="margin:20px auto;">未登録の住所に配送<br><span style="font-size:11px;">(配送先入力へ)</span></a>
 
 <div class="contact_bottom_padding"></div>
 
