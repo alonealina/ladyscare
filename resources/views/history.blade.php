@@ -145,7 +145,7 @@
             </div>
             <div class="history_flex_review_list">
                 <img src="{{ asset('img/history_review.png') }}" class="history_review_img">
-                <a href="#!" class="history_flex_btn">レビューを書く</a>
+                <a href="{{ route('review') }}" class="history_flex_btn">レビューを書く</a>
             </div>
         </div>
 
@@ -329,7 +329,7 @@
         </div>
         <div class="history_flex_review_list">
             <img src="{{ asset('img/history_review.png') }}" class="history_review_img">
-            <a href="#!" class="history_flex_btn">レビューを書く</a>
+            <a href="{{ route('review') }}" class="history_flex_btn">レビューを書く</a>
         </div>
     </div>
 

@@ -14,7 +14,7 @@
 
         <div class="buy_btn_flex" style="margin: 0;">
             <a href="#" class="buy_btn_white" style="padding: 1.25vw;" onclick="history.back()">戻る</a>
-            <a href="{{ route('item_buy_comp') }}" class="buy_btn_black" style="padding: 1.25vw;">ご注文内容確認へ</a>
+            <a href="{{ route('item_buy_confirm') }}" class="buy_btn_black" style="padding: 1.25vw;">ご注文内容確認へ</a>
         </div>
 
     </div>
@@ -40,7 +40,7 @@
     <input type="radio" class="radio_pink" name="method" value="キャリア決済">キャリア決済<br>
 
     <a href="#!" class="send_btn send_btn_white" style="margin:20px auto;" onclick="history.back()">戻る</a>
-    <a href="{{ route('item_buy_comp') }}" class="send_btn" style="margin:20px auto;">ご注文内容確認へ</a>
+    <a href="{{ route('item_buy_confirm') }}" class="send_btn" style="margin:20px auto;">ご注文内容確認へ</a>
 
 </div>
 

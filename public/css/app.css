@@ -808,7 +808,7 @@ footer {
     background: #242423 0% 0% no-repeat padding-box;
     text-align: center;
     color: #FFFFFF;
-    font: normal normal normal 1.4vw/1.5vw KozGoPr6N;
+    font: normal normal normal 1.4vw/1.5vw Kozuka Gothic Pr6N;
     padding:0.5vw 0;
     width:23vw;
     height: 4.5vw;
@@ -922,6 +922,7 @@ footer {
     display: block;
     position: relative;
     top: -4vw;
+    height: 40vw;
 }
 .item_detail_content {
     width:40vw
@@ -1661,6 +1662,108 @@ footer {
     margin: 0 auto 10vw;
 }
 
+/*以下五つ星デザインについて*/
+
+.rate_form_pc {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 54vw 3vw 0;
+    width: 25vw;
+}
+
+.rate_form_sp {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px 15px 0px 0px;
+}
+
+.rate_form input[type=radio] {
+    display: none;
+}
+.rate_form label {
+    position: relative;
+    padding: 0 0.5vw;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 4vw;
+    border: none;
+}
+.rate_form label:hover {
+    color: #ffcc00;
+}
+.rate_form label:hover ~ label {
+    color: #ffcc00;
+}
+.rate_form input[type=radio]:checked ~ label {
+    color: #ffcc00;
+}
+
+/*以下ドラッグエリアについて*/
+.regist_flex {
+    display: flex;
+    width: 100%;
+}
+#previewBox {
+    width: 12vw;
+    height: 16vw;
+    margin-right: 5vw;
+}
+#previewArea {
+    width: 12vw;
+    height: 16vw;
+    margin-right: 5vw;
+}
+#dragDropArea{
+    margin: 0px;
+    padding: 10px;
+    height: 16vw;
+    text-align: center;
+    background: #E6E6E6 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    width: 30vw;
+    margin-right: 3%;
+}
+#dragDropArea p{
+    color: #999;
+    font-weight: bold;
+    font-size: 14px;
+    font: normal normal normal 1vw/1.2vw Hiragino Kaku Gothic Pro;
+    margin-bottom: 0.5vw;
+}
+#dragDropArea .drag-drop-buttons{
+    margin-top: 20px;
+    font-size: 12px;
+    font-size: 1.0em;
+}
+.drag-drop-buttons input{
+    margin: auto;
+    width: 17.5vw;
+    font: normal normal normal 1vw/1.2vw Hiragino Kaku Gothic Pro;
+}
+#previewImage {
+    width:100%;
+    height:100%;
+}
+.previewImage {
+    width: 100%;
+    height: 100%;
+    top: -52px;
+    left: 0px;
+    position: relative;
+}
+.drop_img {
+    width: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+.file_flex {
+    display: flex;
+    margin-top: 4vw;
+}
+
+
+
+
 /* SP用アコーディオン */
 .accordion-content {
     display: none;
@@ -2130,6 +2233,7 @@ footer {
     }
     .item_detail_img_main {
         top: -18vw;
+        height: 100vw;
     }
     .item_detail_content {
         width: 92vw;
@@ -2578,9 +2682,88 @@ footer {
         font: normal normal normal 12px/20px Segoe UI;
     }
 
+    .rate_form_pc {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 44vw 3vw 0;
+        width: 63vw;
+    }
 
+    .rate_form label {
+        position: relative;
+        padding: 0 1vw;
+        color: #ccc;
+        cursor: pointer;
+        font-size: 10vw;
+        border: none;
+    }
+    
+    .file_flex {
+        width: 92vw;
+        margin: 7vw auto;
+    }
 
+    #previewBox {
+        width: 18vw;
+        height: 24vw;
+        margin-right: 5vw;
+    }
 
+    #previewArea {
+        width: 18vw;
+        height: 24vw;
+        margin-right: 5vw;
+    }
+
+    #dragDropArea {
+        margin: 0px;
+        padding: 10px;
+        height: 24vw;
+        text-align: center;
+        background: #E6E6E6 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        width: 69vw;
+        margin-right: 0;
+    }
+
+    .drop_img {
+        width: 8vw;
+        margin-top: 0vw;
+        margin-bottom: 1vw;
+    }
+
+    #dragDropArea p {
+        color: #999;
+        font-weight: bold;
+        font-size: 14px;
+        font: normal normal normal 2.5vw/3vw Hiragino Kaku Gothic Pro;
+        margin-bottom: 0.5vw;
+    }
+
+    #dragDropArea .drag-drop-buttons {
+        margin-top: 0vw;
+        font-size: 12px;
+        font-size: 2vw;
+    }
+
+    .drag-drop-buttons input {
+        margin: 1vw auto;
+        width: 37.5vw;
+        font: normal normal normal 2vw/2.2vw Hiragino Kaku Gothic Pro;
+    }
+
+    .buy_btn_black {
+        background: #242423 0% 0% no-repeat padding-box;
+        text-align: center;
+        color: #FFFFFF;
+        font: normal normal normal 4vw/4vw Kozuka Gothic Pr6N;
+        padding: 0.5vw 0;
+        width: 43vw;
+        height: 10vw;
+        margin-top: 3vw;
+        border: 1px solid #000;
+        display: block;
+    }
 
     /* ハンバーガーメニュー */
     .hamburger-menu {

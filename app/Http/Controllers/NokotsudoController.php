@@ -72,6 +72,11 @@ class NokotsudoController extends Controller
         return view('history');
     }
 
+    public function review()
+    {
+        return view('review');
+    }
+
     public function address_change()
     {
         return view('address_change');

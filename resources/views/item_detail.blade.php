@@ -8,14 +8,18 @@
 <div class="item_detail_div">
     <div class="item_detail_flex">
         <div class="item_detail_img_list">
-            <img src="{{ asset('img/item_detail_img1.png') }}" class="item_detail_img_s">
-            <img src="{{ asset('img/item_detail_img2.png') }}" class="item_detail_img_s">
-            <img src="{{ asset('img/item_detail_img3.png') }}" class="item_detail_img_s">
-            <img src="{{ asset('img/item_detail_img4.png') }}" class="item_detail_img_s">
+            <a onclick="clickImg(1)" class=""><img src="{{ asset('img/item_detail_img1.png') }}" class="item_detail_img_s"></a>
+            <a onclick="clickImg(2)" class=""><img src="{{ asset('img/item_detail_img2.png') }}" class="item_detail_img_s"></a>
+            <a onclick="clickImg(3)" class=""><img src="{{ asset('img/item_detail_img3.png') }}" class="item_detail_img_s"></a>
+            <a onclick="clickImg(4)" class=""><img src="{{ asset('img/item_detail_img4.png') }}" class="item_detail_img_s"></a>
         </div>
         <div class="item_detail_img_div">
             <img src="{{ asset('img/item_detail_sphere.png') }}" class="item_detail_sphere">
-            <img src="{{ asset('img/item_detail_img5.png') }}" class="item_detail_img_main">
+            <img id="view_img1" src="{{ asset('img/item_detail_img1.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+            <img id="view_img2" src="{{ asset('img/item_detail_img2.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+            <img id="view_img3" src="{{ asset('img/item_detail_img3.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+            <img id="view_img4" src="{{ asset('img/item_detail_img4.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+            <img id="view_img5" src="{{ asset('img/item_detail_img5.png') }}" class="item_img item_detail_img_main" alt="">
         </div>
         <div class="item_detail_content">
             <div class="item_detail_ex">
@@ -283,14 +287,18 @@
 
 <div class="item_detail_flex">
     <div class="item_detail_img_list">
-        <img src="{{ asset('img/item_detail_img1.png') }}" class="item_detail_img_s">
-        <img src="{{ asset('img/item_detail_img2.png') }}" class="item_detail_img_s">
-        <img src="{{ asset('img/item_detail_img3.png') }}" class="item_detail_img_s">
-        <img src="{{ asset('img/item_detail_img4.png') }}" class="item_detail_img_s">
+        <a onclick="clickImg(1)" class=""><img src="{{ asset('img/item_detail_img1.png') }}" class="item_detail_img_s"></a>
+        <a onclick="clickImg(2)" class=""><img src="{{ asset('img/item_detail_img2.png') }}" class="item_detail_img_s"></a>
+        <a onclick="clickImg(3)" class=""><img src="{{ asset('img/item_detail_img3.png') }}" class="item_detail_img_s"></a>
+        <a onclick="clickImg(4)" class=""><img src="{{ asset('img/item_detail_img4.png') }}" class="item_detail_img_s"></a>
     </div>
     <div class="item_detail_img_div">
         <img src="{{ asset('img/item_detail_sphere.png') }}" class="item_detail_sphere">
-        <img src="{{ asset('img/item_detail_img5.png') }}" class="item_detail_img_main">
+        <img id="view_img1" src="{{ asset('img/item_detail_img1.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+        <img id="view_img2" src="{{ asset('img/item_detail_img2.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+        <img id="view_img3" src="{{ asset('img/item_detail_img3.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+        <img id="view_img4" src="{{ asset('img/item_detail_img4.png') }}" class="item_img item_detail_img_main" alt="" hidden>
+        <img id="view_img5" src="{{ asset('img/item_detail_img5.png') }}" class="item_img item_detail_img_main" alt="">
     </div>
 </div>
 

@@ -4,13 +4,13 @@
 <div class="category_div">
     <div class="category_title">お客様情報</div>
 
-    <form name="regist_form" action="{{ route('member_comp') }}" method="post" enctype="multipart/form-data">
+    <form name="regist_form" action="{{ route('paymethod_select') }}" enctype="multipart/form-data">
         @csrf
         <div class="contact_div">
             <div class="contact_name">
                 Eメールアドレスを入力してください。<br>
                 アカウントをお持ちのお客様は、ログインが必要です。<br>
-                アカウントをお持ちでないお客様は、登録せずにご購入いただけます。
+                アカウントをお持ちでないお客様は、登録せずにご購入いただけます。*
             </div>
             <input class="contact_text" placeholder="" name="mail" type="text" id="mail">
         </div>
@@ -64,7 +64,7 @@
                 5営業日以内（土日祝を除く）に商品を発送いたします。
             </div>
 
-            <a href="{{ route('paymethod_select') }}" class="buy_btn_black" style="padding: 1.25vw; margin: 1vw auto; width:19vw;">お支払方法選択へ</a>
+            <a href="#!" onclick="clickRegistButton()" class="buy_btn_black" style="padding: 1.25vw; margin: 1vw auto; width:19vw;">お支払方法選択へ</a>
 
             <div class="error_message" id="error_message"></div>
 
@@ -74,7 +74,7 @@
 
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="{{ asset('js/member_regist.js') }}"></script>
+<script src="{{ asset('js/not_member_form.js') }}"></script>
 <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
 
 @endsection
@@ -142,7 +142,7 @@
             日本郵便<br>
             5営業日以内（土日祝を除く）に商品を発送いたします。
         </div>
-        <a href="{{ route('paymethod_select') }}" class="send_btn" style="margin:20px auto;">お支払方法選択へ</a>
+        <a href="#!" onclick="clickRegistButton()" class="send_btn" style="margin:20px auto;">お支払方法選択へ</a>
 
         <div class="error_message" id="error_message"></div>
 
@@ -152,7 +152,7 @@
 <div class="contact_bottom_padding"></div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="{{ asset('js/member_regist.js') }}"></script>
+<script src="{{ asset('js/not_member_form.js') }}"></script>
 <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
 
 @endsection
